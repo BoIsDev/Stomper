@@ -7,9 +7,12 @@ public class CoinManager : MonoBehaviour
     // Start is called before the first frame update
     public int coinCount = 0;
     public int levelCount = 0;
-    public Text cointext;
     public Text levelText;
    
+    public Text cointext;
+
+
+
        // Update is called once per frame
     void Update()
     {

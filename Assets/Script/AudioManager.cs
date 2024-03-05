@@ -25,10 +25,10 @@ public class AudioManager : MonoBehaviour
     {
       
          if (musicSource != null)
-    {
-        musicSource.clip = background;
-        musicSource.Play();  
-    }
+        {
+            musicSource.clip = background;
+            musicSource.Play();  
+        }
     }
 
     
@@ -36,5 +36,19 @@ public class AudioManager : MonoBehaviour
     public void PlaySFX(AudioClip clip)
     {
         SFXSource.PlayOneShot(clip);
+    }
+
+
+     public void PauseMusic()
+    {
+        if(musicSource.isPlaying)
+            musicSource.Pause();
+    }
+
+    // Phương thức tiếp tục phát nhạc
+    public void UnpauseMusic()
+    {
+        if(!musicSource.isPlaying)
+            musicSource.UnPause();
     }
 }

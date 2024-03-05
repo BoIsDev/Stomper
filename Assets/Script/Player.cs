@@ -60,10 +60,9 @@ public class Player : MonoBehaviour
         hc.updateHealthBar(healthPlayer, healthPlayerMax);
         if(healthPlayer <= 0 )
         {
-            ui.btGameOver.SetActive(true);
+            ui.btPauseGame.SetActive(true);
             ui.scoreCoin.SetActive(false);
             ui.healthBar.SetActive(false);
-            ui.pauseGame.SetActive(false);
         }
        
         HandleMovementInput();

@@ -4,24 +4,38 @@ using UnityEngine;
 
 public class UIController : MonoBehaviour
 {
-    public GameObject btGameOver = null;
+    public GameObject btPauseGame = null;
     
     public GameObject scoreCoin = null;
 
     public GameObject healthBar = null;
 
-    public GameObject btPlayGame = null;
 
-    public GameObject pauseGame = null;
+    public AudioManager audioManager; // Gán từ Inspector
 
 
     private void Awake()
     {
-        btGameOver.SetActive(false);
+        btPauseGame.SetActive(false);
         scoreCoin.SetActive(true);
         healthBar.SetActive(true);
-        pauseGame.SetActive(false);
     }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Time.timeScale = 0;
+            btPauseGame.SetActive(true);
+            scoreCoin.SetActive(false);
+            healthBar.SetActive(false);
+            audioManager.PauseMusic();
+        }
+     
+   
+    }
+
+    
 
   
 }

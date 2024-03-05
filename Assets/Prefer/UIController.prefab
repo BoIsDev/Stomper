@@ -47,4 +47,3 @@ MonoBehaviour:
   btGameOver: {fileID: 0}
   scoreCoin: {fileID: 0}
   healthBar: {fileID: 0}
-  btPlayGame: {fileID: 0}
