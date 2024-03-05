@@ -39,16 +39,5 @@ public class AudioManager : MonoBehaviour
     }
 
 
-     public void PauseMusic()
-    {
-        if(musicSource.isPlaying)
-            musicSource.Pause();
-    }
 
-    // Phương thức tiếp tục phát nhạc
-    public void UnpauseMusic()
-    {
-        if(!musicSource.isPlaying)
-            musicSource.UnPause();
-    }
 }

@@ -11,8 +11,6 @@ public class UIController : MonoBehaviour
     public GameObject healthBar = null;
 
 
-    public AudioManager audioManager; // Gán từ Inspector
-
 
     private void Awake()
     {
@@ -29,8 +27,9 @@ public class UIController : MonoBehaviour
             btPauseGame.SetActive(true);
             scoreCoin.SetActive(false);
             healthBar.SetActive(false);
-            audioManager.PauseMusic();
         }
+       
+       
      
    
     }
