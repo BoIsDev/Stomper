@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7400009380250121915}
   - component: {fileID: 2808957849042904629}
   - component: {fileID: 797599222732583859}
-  - component: {fileID: 1548872836997079543}
   - component: {fileID: 1532284185547356841}
   - component: {fileID: 5691696082764258975}
   - component: {fileID: 7300121820470344428}
@@ -105,21 +104,6 @@ MonoBehaviour:
   moveSpeedEnemy: 2
   animator: {fileID: 7300121820470344428}
   flySpeedEnemy: 2
---- !u!114 &1548872836997079543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312543518770786748}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 947c726c9f3b7a1489d2185c94f1f966, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthEnemy: 2
-  moveSpeedEnemy: 2
-  animator: {fileID: 0}
 --- !u!50 &1532284185547356841
 Rigidbody2D:
   serializedVersion: 4

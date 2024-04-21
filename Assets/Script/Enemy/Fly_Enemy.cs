@@ -19,16 +19,7 @@ public class Fly_Enemy : Enemy
 
     }
 
-    //    protected override void OnCollisionEnter2D(Collision2D collision)
-    // {
-    //     base.OnCollisionEnter2D(collision);
-       
-    // }
 
-    // protected override void HandlePlayerCollision(Collision2D collision)
-    // {
-    //     base.HandlePlayerCollision(collision);
-    // }
    
 
 }

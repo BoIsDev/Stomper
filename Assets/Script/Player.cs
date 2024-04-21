@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
     private const float DefaultRollSpeed = 10f;
 
     private float wallSlideSpeed = 2f;
-    private void Start()
+    private void Awake()     
     {
         rb = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
@@ -123,6 +123,7 @@ public class Player : MonoBehaviour
             Jump();
             jumpCount++;
             ani.SetBool("isJump", true);
+            Debug.Log("Jump 1");
             }
             
             else if(jumpCount == 1 )
@@ -132,7 +133,7 @@ public class Player : MonoBehaviour
                 Jump();
                 ani.SetBool("isJump", true);
                 isSetJumping= false;
-           
+
             }  
         }
         
@@ -228,7 +229,7 @@ private void HandleDuckInput()
     private void Jump()
     {
         audio.PlaySFX(audio.jump);
-
+        Debug.Log("Jumping");
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
        
     }
