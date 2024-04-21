@@ -94,7 +94,7 @@ public class Player : MonoBehaviour
         if (isWallClimbing)
         {
             // Áp dụng lực nhảy khi người chơi nhấn nút nhảy
-            
+            ani.SetBool("isWall", true);
             if (Input.GetKeyDown(JumpKey))
             {
                 Jump();
@@ -254,7 +254,7 @@ private void OnCollisionEnter2D(Collision2D collision)
         isWallClimbing = true;
         // jumpForce = 5f;
         wallCollider = collision.collider;
-        ani.SetBool("isWall", true);
+        
         isSetJumping = false;
     }  
     else if (collision.gameObject.CompareTag("Enemy"))
