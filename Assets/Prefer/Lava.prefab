@@ -171,3 +171,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18aaed38f8c624444bad6097c8630e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dameLava: 1
+  timeDelayDame: 1

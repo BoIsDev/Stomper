@@ -121,9 +121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79e4bee5e56ba94992ecbe6b7a00b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthEnemy: 2
-  moveSpeedEnemy: 2
-  animator: {fileID: 6995309235442655633}
+  healthEnemy: 4
+  moveSpeedEnemy: 1
+  animator: {fileID: 0}
   walkSpeedEnemy: 1
 --- !u!50 &1518364175374149174
 Rigidbody2D:

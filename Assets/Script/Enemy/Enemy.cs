@@ -1,44 +1,37 @@
-
-
 using UnityEngine;
-
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IDameReciever
 {
     protected bool isFacingLeft = true;
     protected bool isMoveEnemy = true;
-    public float healthEnemy = 2;
-    public float moveSpeedEnemy =2f;
-
-    public Animator animator;
+    public float healthEnemy = 4;
+    public float moveSpeedEnemy = 1f;
     protected bool isHurt = false;
     protected float hurtTimer = 0f;
-
-    Player player;
     protected Vector3 initEnemyPosition;
+    Player player;
     AudioManager audio;
-
-
+    Animator animator;
+   
     protected virtual void Start()
     {
+        ObseverManager.Instance.AddObsever(this);
         initEnemyPosition = transform.position;
         player = FindObjectOfType<Player>();
         audio = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-
+        animator = GetComponent<Animator>();
     }
-
     protected virtual void Update()
     {
         HandleMovement();
         if (isHurt) HandleHurt();
-        
-        if(healthEnemy <= 0)
+
+        if (healthEnemy <= 0)
         {
             audio.PlaySFX(audio.enemyDead);
-
+            ObseverManager.Instance.RemoveObsever(this);
             Destroy(gameObject);
         }
     }
-
     protected void HandleMovement()
     {
         Vector3 newPosition = transform.position;
@@ -52,10 +45,9 @@ public class Enemy : MonoBehaviour
         if (newPosition.x <= (initEnemyPosition.x - 1f) || newPosition.x >= (initEnemyPosition.x + 1f))
         {
             isMoveEnemy = !isMoveEnemy;
-            FlipEnemy();
+            Flip.Instance.FlipObj();
         }
     }
-
     protected void HandleHurt()
     {
         hurtTimer += Time.deltaTime;
@@ -68,52 +60,45 @@ public class Enemy : MonoBehaviour
             moveSpeedEnemy = 1f;
         }
     }
-
-    protected void FlipEnemy()
-    {
-        isFacingLeft = !isFacingLeft;
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
-    }
-
+  
     protected virtual void OnCollisionEnter2D(Collision2D collision)
-{
-    if (collision.gameObject.CompareTag("Player"))
-        HandlePlayerCollision(collision);
-}
-
-protected virtual void HandlePlayerCollision(Collision2D collision)
-{
-    Vector2 collisionPoint = collision.contacts[0].point;
-
-    // Check if player is not null before accessing its properties/methods
-    if (player != null)
     {
-        if (collisionPoint.y > transform.position.y)
-        {
-            isHurt = !isHurt;
-            moveSpeedEnemy = 0;
-            hurtTimer = 0;
-            healthEnemy -= player.dameSkill;
-            animator.SetBool("isHurt", true);
-        }
-        else if (player.ani.GetBool("isRoll"))
-        {
+        if (collision.gameObject.CompareTag("Player"))
+            HandlePlayerCollision(collision);
+    }
+    protected virtual void HandlePlayerCollision(Collision2D collision)
+    {
+        Vector2 collisionPoint = collision.contacts[0].point;
 
-            healthEnemy -= player.dameSkill;
+        // Check if player is not null before accessing its properties/methods
+        if (player != null)
+        {
+            if (collisionPoint.y > transform.position.y)
+            {
+                DamageReciever(player.dameSkill);
+            }
+            else if (player.ani.GetBool("isRoll"))
+            {
+
+                healthEnemy -= player.dameSkill;
+            }
+            else
+            {
+                audio.PlaySFX(audio.hit);
+
+                player.healthPlayer--;
+            }
         }
         else
         {
-            audio.PlaySFX(audio.hit);
-
-            player.healthPlayer--;
+            Debug.Log("Player reference is null in HandlePlayerCollision");
         }
     }
-    else
+    public void DamageReciever(int damage)
     {
-        Debug.Log("Player reference is null in HandlePlayerCollision");
+        healthEnemy -= damage;
+        moveSpeedEnemy = 0;
+        hurtTimer = 0;
+        animator.SetBool("isHurt", true);
     }
-}
-
 }

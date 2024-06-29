@@ -13,11 +13,12 @@ public class Bullet : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         pl = FindObjectOfType<Player>();
         audio = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        transform.position += Vector3.up * speed * Time.deltaTime;
 
-  
+
     }
 
-     private void OnTriggerEnter2D(Collider2D collider)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.CompareTag("Player") )
         {
@@ -31,7 +32,8 @@ public class Bullet : MonoBehaviour
         
         if (collider.gameObject.CompareTag("Ground") || collider.gameObject.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            PoolItem.Instance.ReturnObjePool(gameObject);
+            Debug.Log(collider.gameObject.name);
         }
     }
 

@@ -31,9 +31,10 @@ public class Door : MonoBehaviour
 
     public void LoadScreen()
     {
-        cm.levelCount++;
+        this.cm.levelCount++;
         StartCoroutine(LoadAfterDelay());
         cm.coinCount =0;
+        Debug.Log(cm.levelCount);
     }
 
     IEnumerator LoadAfterDelay()
