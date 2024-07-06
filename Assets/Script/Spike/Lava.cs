@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Lava : MonoBehaviour
 {
-    Player pl;
+    PlayerController pl;
     public int dameLava = 1;
     public float timeDelayDame = 0.5f;
     private float nextDamageTime = 0;
     void Awake()
     {
-        pl = FindObjectOfType<Player>();
+        pl = FindObjectOfType<PlayerController>();
     }
     private void OnTriggerStay2D(Collider2D col)
     {

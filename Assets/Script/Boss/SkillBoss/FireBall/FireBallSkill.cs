@@ -36,8 +36,9 @@ public class FireBallSkill : IState
 
     public void Shoot()
     {
-        GameObject bullet = PoolItem.Instance.GetObjItem(bossController.bulletFireBall, bossController.fireBallPos);
+        GameObject bullet = PoolItem.Instance.GetObjItem(bossController.BulletFireBall, bossController.FireBallPos);
         bossController.StartCoroutine(WaitReturnPool(bullet));
+        AudioManager.Instance.PlaySFXEnviroment(AudioManager.Instance.attackFireBall);
     }
 
     private IEnumerator WaitReturnPool(GameObject bullet)

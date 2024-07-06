@@ -14,11 +14,14 @@ public class IceBullet : MonoBehaviour
         cashIce.SetActive(true);
         StartCoroutine(SetActiceCashIce());
     }
-
-    
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") || other.CompareTag("Ground"))
+        if (other.CompareTag("Player"))
+        {
+            PoolItem.Instance.ReturnObjePool(gameObject);
+            PlayerController.Instance.DamageReciever(1);
+        }
+        else if (other.CompareTag("Ground"))
         {
             PoolItem.Instance.ReturnObjePool(gameObject);
         }
@@ -26,6 +29,8 @@ public class IceBullet : MonoBehaviour
     private IEnumerator SetActiceCashIce()
     {
         yield return new WaitForSeconds(0.8f);
+        AudioManager.Instance.PlaySFXEnviroment(AudioManager.Instance.attackIceSkill);
+
         cashIce.SetActive(false);
     }
 }

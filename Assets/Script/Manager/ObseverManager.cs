@@ -6,7 +6,7 @@ public class ObseverManager : MonoBehaviour
 {
     public static ObseverManager Instance;
     public List<IDameReciever> lstIDameRecievers = new List<IDameReciever>();
-    public void Start()
+    public void Awake()
     {
         Instance = this;
     }
@@ -18,11 +18,11 @@ public class ObseverManager : MonoBehaviour
     {
         lstIDameRecievers.Remove(dameReciever);
     }
-    public void DamageReciever(int dameLava)
+    public void DamageReciever(int dame)
     {
         foreach (IDameReciever dameReciever in lstIDameRecievers)
         {
-            dameReciever.DamageReciever(dameLava);
+            dameReciever.DamageReciever(dame);
         }
     }
 }

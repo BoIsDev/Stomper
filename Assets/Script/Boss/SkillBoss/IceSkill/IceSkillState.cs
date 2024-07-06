@@ -40,11 +40,10 @@ public class IceSkillState : IState
 
     public void Shoot()
     {
-        Vector3 playerPosition = bossController.player.position;
         foreach (Transform pointIce in bossController.lstPointIce)
         {
-            GameObject icePrefabs = PoolItem.Instance.GetObjItem(bossController.bulletIce, pointIce);
-            Vector3 direction = playerPosition - icePrefabs.transform.position;
+            GameObject icePrefabs = PoolItem.Instance.GetObjItem(bossController.BulletIce, pointIce);
+            Vector3 direction = bossController.Player.position - icePrefabs.transform.position;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             icePrefabs.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
             icePrefabs.GetComponent<IceBullet>();
@@ -54,7 +53,7 @@ public class IceSkillState : IState
     private IEnumerator ShootAfterDelay(GameObject icePrefabs)
     {
         
-        Vector2 direction = (bossController.player.position - icePrefabs.transform.position).normalized;
+        Vector2 direction = (bossController.Player.position - icePrefabs.transform.position).normalized;
         yield return new WaitForSeconds(1f);
         icePrefabs.GetComponent <Rigidbody2D>().velocity = direction * 20;
 
@@ -64,13 +63,10 @@ public class IceSkillState : IState
         for (int i = 0; i < 4; i++)
         {
             Shoot();
-            Debug.Log("Shoot Ice" + i);
             yield return new WaitForSeconds(0.25f);
         }
         BossController.Instance.count++;
         Debug.Log("Count: " + BossController.Instance.count);
         isShooting = true;
-       
-
     }
 }

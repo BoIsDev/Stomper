@@ -1,33 +1,32 @@
 using UnityEngine;
+
 public class Enemy : MonoBehaviour, IDameReciever
 {
-    protected bool isFacingLeft = true;
     protected bool isMoveEnemy = true;
     public float healthEnemy = 4;
     public float moveSpeedEnemy = 1f;
+    public bool isFacingRight = true;
     protected bool isHurt = false;
     protected float hurtTimer = 0f;
     protected Vector3 initEnemyPosition;
-    Player player;
-    AudioManager audio;
+    PlayerController player;
     Animator animator;
-   
     protected virtual void Start()
     {
-        ObseverManager.Instance.AddObsever(this);
         initEnemyPosition = transform.position;
-        player = FindObjectOfType<Player>();
-        audio = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        player = FindObjectOfType<PlayerController>();
         animator = GetComponent<Animator>();
     }
     protected virtual void Update()
     {
         HandleMovement();
-        if (isHurt) HandleHurt();
-
+        if (isHurt == true)
+        {
+            HandleHurt();
+        }
         if (healthEnemy <= 0)
         {
-            audio.PlaySFX(audio.enemyDead);
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.enemyDead);
             ObseverManager.Instance.RemoveObsever(this);
             Destroy(gameObject);
         }
@@ -42,10 +41,12 @@ public class Enemy : MonoBehaviour, IDameReciever
 
         newPosition.x = Mathf.Clamp(newPosition.x, initEnemyPosition.x - 1f, initEnemyPosition.x + 1f);
         transform.position = newPosition;
-        if (newPosition.x <= (initEnemyPosition.x - 1f) || newPosition.x >= (initEnemyPosition.x + 1f))
+
+        if ((newPosition.x <= (initEnemyPosition.x - 1f) && isFacingRight) ||
+            (newPosition.x >= (initEnemyPosition.x + 1f) && !isFacingRight))
         {
             isMoveEnemy = !isMoveEnemy;
-            Flip.Instance.FlipObj();
+            FlipObj();
         }
     }
     protected void HandleHurt()
@@ -53,40 +54,45 @@ public class Enemy : MonoBehaviour, IDameReciever
         hurtTimer += Time.deltaTime;
         if (hurtTimer >= 2f)
         {
-            healthEnemy = 2;
+            healthEnemy = 4;
             isHurt = false;
+            moveSpeedEnemy = 1f;        
             hurtTimer = 0f;
             animator.SetBool("isHurt", false);
-            moveSpeedEnemy = 1f;
         }
     }
-  
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
+        {
             HandlePlayerCollision(collision);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Lava"))
+        {
+            Debug.Log("Lava");
+            ObseverManager.Instance.AddObsever(this);
+            //DamageReciever(1);
+        }
     }
     protected virtual void HandlePlayerCollision(Collision2D collision)
     {
         Vector2 collisionPoint = collision.contacts[0].point;
-
-        // Check if player is not null before accessing its properties/methods
         if (player != null)
         {
             if (collisionPoint.y > transform.position.y)
             {
-                DamageReciever(player.dameSkill);
-            }
-            else if (player.ani.GetBool("isRoll"))
-            {
-
-                healthEnemy -= player.dameSkill;
+                DamageReciever(1);
+                player.jumpCount = 0;
+                isHurt = true;
             }
             else
             {
-                audio.PlaySFX(audio.hit);
-
-                player.healthPlayer--;
+                AudioManager.Instance.PlaySFX(AudioManager.Instance.hit);
+                player.DamageReciever(1);
             }
         }
         else
@@ -96,9 +102,21 @@ public class Enemy : MonoBehaviour, IDameReciever
     }
     public void DamageReciever(int damage)
     {
+        if (healthEnemy <= 0)
+        {
+            healthEnemy = 0;
+            animator.SetBool("isHurt", false);
+        }
         healthEnemy -= damage;
         moveSpeedEnemy = 0;
         hurtTimer = 0;
         animator.SetBool("isHurt", true);
+    }
+    public void FlipObj()
+    {
+        isFacingRight = !isFacingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 }

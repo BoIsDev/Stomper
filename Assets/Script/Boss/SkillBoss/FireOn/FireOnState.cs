@@ -7,7 +7,6 @@ public class FireOnState : IState
 {
     private BossController bossController;
     private Animator ani;
-    private bool isShooting = false;
     private Coroutine waitCollider;
     private Transform posFireOn;
     public FireOnState(BossController bossController)
@@ -17,9 +16,9 @@ public class FireOnState : IState
     }
     public void Enter()
     {
-        posFireOn = bossController.player;
+        posFireOn = bossController.Player;
         ani.SetBool("isAttacking", true);
-       waitCollider = bossController.StartCoroutine(SetUpShootIce());
+       waitCollider = bossController.StartCoroutine(SetUpShootFireOn());
     }
 
     public void Execute()
@@ -36,8 +35,9 @@ public class FireOnState : IState
     }
     public void ShootFireOn()
     {
-        GameObject newFireOn = PoolItem.Instance.GetObjItem(bossController.bulletFireOn, bossController.fireOnPos);
-        newFireOn.transform.position = bossController.fireOnPos.position;
+        GameObject newFireOn = PoolItem.Instance.GetObjItem(bossController.BulletFireOn, bossController.FireOnPos);
+        newFireOn.transform.position = bossController.FireOnPos.position;
+        AudioManager.Instance.PlaySFXEnviroment(AudioManager.Instance.attackFireOn);
         bossController.StartCoroutine(WaitReturnPool(newFireOn));
     }
 
@@ -47,14 +47,13 @@ public class FireOnState : IState
         bossController.isStateFree = true;
         PoolItem.Instance.ReturnObjePool(newFireOn);
    }
-    private IEnumerator SetUpShootIce()
+    private IEnumerator SetUpShootFireOn()
     {
         for (int i = 0; i < 4; i++)
         {
             ShootFireOn();
             yield return new WaitForSeconds(0.5f);
         }
-        isShooting = true;
         BossController.Instance.count++;
     }
 }

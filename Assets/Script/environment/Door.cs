@@ -4,39 +4,25 @@ using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
-    public float delayBeforeLoading = 1.5f; 
-    public string newSceneName = "Level 1"; 
-    public CoinManager cm;
-    AudioManager audio;
-    
-
-    void Start(){
-        cm = FindObjectOfType<CoinManager>();
-        audio = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-
-    }
-   private void OnTriggerEnter2D(Collider2D col)
-   {
-       if(col.CompareTag("Player"))
-       {
-            if(cm.coinCount == 5)
+    private float delayBeforeLoading = 1.5f;
+    [SerializeField]private string newSceneName = "boss";
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Player"))
+        {
+            if (UIController.Instance.count == 5)
             {
-            audio.PlaySFX(audio.door);
-            col.gameObject.SetActive(false);
-            LoadScreen();
+                AudioManager.Instance.PlaySFX(AudioManager.Instance.door);
+                col.gameObject.SetActive(false);
+                LoadScreen();
             }
-           
-       }
-   }
-
+        }
+    }
     public void LoadScreen()
     {
-        this.cm.levelCount++;
         StartCoroutine(LoadAfterDelay());
-        cm.coinCount =0;
-        Debug.Log(cm.levelCount);
+        UIController.Instance.count = 0;
     }
-
     IEnumerator LoadAfterDelay()
     {
         yield return new WaitForSeconds(delayBeforeLoading);

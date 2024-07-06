@@ -19,14 +19,9 @@ public class PlantTrap : MonoBehaviour
     void Start()
     {
 
-        cor= StartCoroutine(SpawnBulletAfterDelay());
-        //stop
+        cor = StartCoroutine(SpawnBulletAfterDelay());
     }
-    //void Update()
-    //{
-    //    ShotTimetime();
 
-    //}
     void ShotTimetime()
     {
         if (Time.time >= nextShootTime)
@@ -57,16 +52,16 @@ public class PlantTrap : MonoBehaviour
 
     void Shoot()
     {
-        
+
         GameObject newBullet = PoolItem.Instance.GetObjItem(bulletPlant, shootPoint);
         newBullet.SetActive(true);
+        AudioManager.Instance.PlaySFXEnviroment(AudioManager.Instance.plantShoot);
         newBullet.name = bulletPlant.name;
         Rigidbody2D rb = newBullet.GetComponent<Rigidbody2D>();
         // Chuyển đổi góc bắn từ độ sang radian
         float angleInRadians = shootAngle * Mathf.Deg2Rad;
         // Tính toán vector lực theo góc bắn
         Vector2 force = new Vector2(Mathf.Cos(angleInRadians), Mathf.Sin(angleInRadians)) * shootForce;
-
         // Áp dụng lực ban đầu cho đạn để tạo chuyển động parabol
         rb.AddForce(force, ForceMode2D.Impulse);
     }

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +6,7 @@ public class CallMonsterState : IState
 {
     private BossController bossController;
     private Animator ani;
+    private Coroutine callMonsterCoroutine;
 
     public CallMonsterState(BossController bossController)
     {
@@ -17,26 +18,44 @@ public class CallMonsterState : IState
     {
         ani.SetBool("isAttacking", true);
         CallMonster();
-        Debug.Log("Call Monster");
+            Debug.Log("Call Monster");
     }
 
     public void Execute()
     {
-        // No actions needed during Execute phase for calling monsters
     }
 
     public void Exit()
     {
         ani.SetBool("isAttacking", false);
         ani.SetBool("isIdleing", true);
+
+        if (callMonsterCoroutine != null)
+        {
+            bossController.StopCoroutine(callMonsterCoroutine);
+        }
     }
 
     private void CallMonster()
     {
         foreach (Transform pos in bossController.lstPointMonster)
         {
-            GameObject monster = PoolItem.Instance.GetObjItem(bossController.monster, pos);
-            // Optionally, you can add more setup or initialization for each monster here
+            GameObject monster = PoolItem.Instance.GetObjItem(bossController.Monster, pos);
+            bossController.StartCoroutine(ReturnPoolMonster(monster));
+        }
+    }
+
+    private IEnumerator ReturnPoolMonster(GameObject monster)
+    {
+        yield return new WaitForSeconds(8f);
+        PoolItem.Instance.ReturnObjePool(monster);
+    }
+
+    public void OnTriggetEnter(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            ObseverManager.Instance.DamageReciever(1);
         }
     }
 }

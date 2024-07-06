@@ -8,14 +8,13 @@ public class PoolItem : MonoBehaviour
     public Transform Holder;
     private static PoolItem instance;
     public static PoolItem Instance => instance;
-    private int countPrefabs = 0;
         private void Awake()
     {
         if (instance == null)
             instance = this;
     }
 
-    protected GameObject CreateNewObj(GameObject obj , Transform pos)
+    public GameObject CreateNewObj(GameObject obj , Transform pos)
     {
         GameObject newGo = Instantiate(obj, Holder);
         newGo.SetActive(true);

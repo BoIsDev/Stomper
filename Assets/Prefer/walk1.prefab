@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthEnemy: 4
   moveSpeedEnemy: 1
-  animator: {fileID: 0}
+  isFacingRight: 1
   walkSpeedEnemy: 1
 --- !u!50 &1518364175374149174
 Rigidbody2D:
@@ -151,7 +151,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 5
+  m_Constraints: 4
 --- !u!70 &8695707832464852874
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -5,13 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
-  - wall
   - WallSliding
   - Enemy
   - Bullet
   - Coin
-  - Audio
   - Stone
+  - Lava
   layers:
   - Default
   - TransparentFX

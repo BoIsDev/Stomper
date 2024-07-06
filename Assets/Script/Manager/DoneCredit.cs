@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 public class DoneCredit : MonoBehaviour
 {
     public float delayBeforeEndCredit = 15f;
+    [SerializeField] GameObject Credit;
     public string newSceneName = "StartScene";
-
-    void Start()
+    private void OnEnable()
     {
+        Credit.SetActive(true);
         StartCoroutine(WaitAndLoadScene());
+    
     }
 
     IEnumerator WaitAndLoadScene()

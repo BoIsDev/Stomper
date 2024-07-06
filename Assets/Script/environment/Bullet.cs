@@ -4,18 +4,14 @@ using System.Collections;
 public class Bullet : MonoBehaviour
 {
     public float speed;
-    Player pl;
-    Rigidbody2D rb;
-    AudioManager audio;
+    private PlayerController pl;
+    private Rigidbody2D rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        pl = FindObjectOfType<Player>();
-        audio = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        pl = FindObjectOfType<PlayerController>();
         transform.position += Vector3.up * speed * Time.deltaTime;
-
-
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
@@ -24,16 +20,13 @@ public class Bullet : MonoBehaviour
         {
             if (pl.healthPlayer > 0)
             {
-                audio.PlaySFX(audio.hit);
-
-                pl.healthPlayer--;
+                AudioManager.Instance.PlaySFX(AudioManager.Instance.hit);
+                pl.DamageReciever(1);
             }
         }
-        
         if (collider.gameObject.CompareTag("Ground") || collider.gameObject.CompareTag("Player"))
         {
             PoolItem.Instance.ReturnObjePool(gameObject);
-            Debug.Log(collider.gameObject.name);
         }
     }
 
