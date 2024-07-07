@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class ObseverManager : MonoBehaviour
 {
     public static ObseverManager Instance;

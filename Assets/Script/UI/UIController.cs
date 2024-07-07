@@ -5,16 +5,15 @@ using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-    public int count = 0;
     [SerializeField] private GameObject panelPause;
     [SerializeField] private Text txtTimeBoss;
     [SerializeField] private Text txtCoint;
     [SerializeField] private GameObject resumeButton;
-    private bool isTimeBoss = false;
+    public int count = 0;
+    public float startTime;
     private bool isCoin = false;
     private int countMax = 5;
     private float timeVictory = 59f;
-    public float startTime;
     public static UIController Instance => instance;
     private static UIController instance;
     private PlayerManager controls;
@@ -56,11 +55,6 @@ public class UIController : MonoBehaviour
     }
     public void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.Escape))
-        //{
-        //    panelPause.SetActive(true);
-        //    Time.timeScale = 0;
-        //}
         if (isCoin == true && txtCoint != null)
         {
             txtCoint.text = count.ToString() + "/" + countMax.ToString();
@@ -70,7 +64,7 @@ public class UIController : MonoBehaviour
             TimeVictory();
             txtCoint = null;
         }
-        if(panelPause.activeSelf == true)
+        if (panelPause.activeSelf == true)
         {
             Time.timeScale = 0;
         }
@@ -78,9 +72,6 @@ public class UIController : MonoBehaviour
         {
             Time.timeScale = 1;
         }
-       
-       
-
     }
     public void TimeVictory()
     {

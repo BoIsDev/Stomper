@@ -9,8 +9,6 @@ public class RollPlayer : IState
     private Animator ani;
     private Enemy enemy;
     private float rollSpeed = 8f;
-    private float rollDuration = 0.5f;
-    private float rollTimer;
     private int dameRoll = 4;
     public RollPlayer(PlayerController playerController)
     {
@@ -24,7 +22,6 @@ public class RollPlayer : IState
         ani.SetBool("isRoll", true);
         AudioManager.Instance.PlaySFX(AudioManager.Instance.acttack);
     }
-
     public void Execute()
     {
         rb.velocity = new Vector2(playerController.xDirection * rollSpeed, rb.velocity.y);

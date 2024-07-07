@@ -4,24 +4,21 @@ using UnityEngine;
 
 public class PlantTrap : MonoBehaviour
 {
-    public GameObject bulletPlant;
-    public Transform shootPoint;
-    public float shootRate = 0.2f;
-    public float nextShootTime = 0f;
-    public float shootForce = 8f;  // Lực bắn ban đầu
-    public float shootAngle = 135f;  // Góc bắn (độ)
-    public float shootAngle2 = 110f;
-    public float countShoot = 0;
-    public float shootInterval = 3f;
-    public bool isChangeAngle = false;
-    public bool isCanShoot = true;
+    [SerializeField]private GameObject bulletPlant;
+    [SerializeField]private Transform shootPoint;
+    private float shootRate = 0.2f;
+    private float nextShootTime = 0f;
+    private float shootForce = 8f;  // Lực bắn ban đầu
+    private float shootAngle = 135f;  // Góc bắn (độ)
+    private float shootAngle2 = 110f;
+    private float countShoot = 0;
+    private float shootInterval = 3f;
+    private bool isChangeAngle = false;
     Coroutine cor;
     void Start()
     {
-
         cor = StartCoroutine(SpawnBulletAfterDelay());
     }
-
     void ShotTimetime()
     {
         if (Time.time >= nextShootTime)
@@ -49,10 +46,8 @@ public class PlantTrap : MonoBehaviour
             }
         }
     }
-
     void Shoot()
     {
-
         GameObject newBullet = PoolItem.Instance.GetObjItem(bulletPlant, shootPoint);
         newBullet.SetActive(true);
         AudioManager.Instance.PlaySFXEnviroment(AudioManager.Instance.plantShoot);
@@ -65,7 +60,6 @@ public class PlantTrap : MonoBehaviour
         // Áp dụng lực ban đầu cho đạn để tạo chuyển động parabol
         rb.AddForce(force, ForceMode2D.Impulse);
     }
-
     private IEnumerator SpawnBulletAfterDelay()
     {
         while (true)

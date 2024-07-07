@@ -19,14 +19,12 @@ public class PlayerController : MonoBehaviour, IDameReciever
     [SerializeField] private StateManager stateManager;
     private bool isCanRoll = true;
     private bool isWallClimbing = false;
-    private int damePlayer = 2;
     private float healthPlayerMax = 20f;
     public static PlayerController Instance => instance;
     private static PlayerController instance;
     private Rigidbody2D rb;
     private PlayerManager controls;
     private HealthCavans hc;
-
     private void Awake()
     {
         stateManager = GetComponent<StateManager>();
@@ -57,7 +55,6 @@ public class PlayerController : MonoBehaviour, IDameReciever
                 stateManager.ChangeState(new WalkPlayer(this));
             }
         };
-
         controls.Stomper.Jump.performed += ctx =>
         {
             if (jumpCount < maxJumpCount)
@@ -74,7 +71,6 @@ public class PlayerController : MonoBehaviour, IDameReciever
                 StartCoroutine(WaitSkillPlayer());
             }
         };
-
         controls.Stomper.Duck.performed += ctx =>
         {
             stateManager.ChangeState(new DuckPlayer(this));
@@ -83,40 +79,14 @@ public class PlayerController : MonoBehaviour, IDameReciever
     protected void Update()
     {
         hc.updateHealthBar(healthPlayer, healthPlayerMax);
-        if(healthPlayer <= 0)
+        if (healthPlayer <= 0)
         {
             UIController.Instance.GameOver();
         }
-        //float xDirection = Input.GetAxis("Horizontal");
         if (xDirection == 0 && isGrounded && !isWallClimbing)
         {
             stateManager.ChangeState(new IdlePlayer(this));
         }
-        //else if (xDirection != 0 && isCanRoll)
-        //{
-        //    stateManager.ChangeState(new WalkPlayer(this));
-        //}
-        //if (Input.GetKeyDown(KeyCode.Space) && jumpCount < maxJumpCount)
-        //{
-        //    stateManager.ChangeState(new JumpPlayer(this));
-        //}
-        //if (Input.GetKeyDown(KeyCode.J) && isCanRoll && xDirection != 0)
-        //{
-        //    isCanRoll = false;
-        //    stateManager.ChangeState(new RollPlayer(this));
-        //    StartCoroutine(WaitSkillPlayer());
-        //}
-        //if (Input.GetKey(KeyCode.S))
-        //{
-        //    stateManager.ChangeState(new DuckPlayer(this));
-        //    PointColiiderHolder.SetActive(true);
-        //    PlayerCollider.enabled = false;
-        //}
-        //else
-        //{
-        //    PointColiiderHolder.SetActive(false);
-        //    PlayerCollider.enabled = true;
-        //}
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -153,12 +123,10 @@ public class PlayerController : MonoBehaviour, IDameReciever
         yield return new WaitForSeconds(0.5f);
         isCanRoll = true;
     }
-
     public void DamageReciever(int damage)
     {
         healthPlayer -= damage;
         AudioManager.Instance.PlaySFX(AudioManager.Instance.hit);
-      
     }
     public void FlipObj()
     {
@@ -167,7 +135,6 @@ public class PlayerController : MonoBehaviour, IDameReciever
         theScale.x *= -1;
         transform.localScale = theScale;
     }
-
     public void OnEnable()
     {
         controls.Enable();

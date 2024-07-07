@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour, IDameReciever
 {
-    protected bool isMoveEnemy = true;
     public float healthEnemy = 4;
     public float moveSpeedEnemy = 1f;
     public bool isFacingRight = true;
-    protected bool isHurt = false;
-    protected float hurtTimer = 0f;
-    protected Vector3 initEnemyPosition;
+    private bool isHurt = false;
+    private float hurtTimer = 0f;
+    private Vector3 initEnemyPosition;
+    private bool isMoveEnemy = true;
     PlayerController player;
     Animator animator;
     protected virtual void Start()
