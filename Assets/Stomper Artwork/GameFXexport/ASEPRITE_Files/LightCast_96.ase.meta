@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -1090,6 +1092,7 @@ ScriptedImporter:
     cells:
     - name: LightCast_96_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1098,6 +1101,7 @@ ScriptedImporter:
       spriteId: 83ab0376b0ccf014f9543b96554d932a
     - name: LightCast_96_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1106,6 +1110,7 @@ ScriptedImporter:
       spriteId: a0f8133d75a207042891fb450975c560
     - name: LightCast_96_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1114,6 +1119,7 @@ ScriptedImporter:
       spriteId: 0fdf929be1d0e534ca51176358d5d7da
     - name: LightCast_96_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1122,6 +1128,7 @@ ScriptedImporter:
       spriteId: ee6b1f76a6ddd094ca7aa4f0ca7ac5a8
     - name: LightCast_96_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1130,6 +1137,7 @@ ScriptedImporter:
       spriteId: 8ebec9108b6e5a44388e6cbbc6f07c2f
     - name: LightCast_96_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1138,6 +1146,7 @@ ScriptedImporter:
       spriteId: 190f84b8feb9b1948a69ebbef158d99e
     - name: LightCast_96_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1146,6 +1155,7 @@ ScriptedImporter:
       spriteId: 66021c6ac239440429c7b230470312f8
     - name: LightCast_96_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1154,6 +1164,7 @@ ScriptedImporter:
       spriteId: fb5e30fe7eb537b45bb7e1d0eb55d2dc
     - name: LightCast_96_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1162,6 +1173,7 @@ ScriptedImporter:
       spriteId: ba58993c39cbdbb4eb1a88bbbb4a76cc
     - name: LightCast_96_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1170,6 +1182,7 @@ ScriptedImporter:
       spriteId: 7c7e51119d676f64f859c21bfdb9e7d4
     - name: LightCast_96_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1178,6 +1191,7 @@ ScriptedImporter:
       spriteId: 22031be7f2365bc41abaa636bdd73762
     - name: LightCast_96_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1186,6 +1200,7 @@ ScriptedImporter:
       spriteId: aece8ddc413854746be610fc400bbcd3
     - name: LightCast_96_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1194,6 +1209,7 @@ ScriptedImporter:
       spriteId: dd54492823057544281c4181dacd79c0
     - name: LightCast_96_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1202,6 +1218,7 @@ ScriptedImporter:
       spriteId: 84a18ce02c222f24ea0929c20d20a394
     - name: LightCast_96_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1210,6 +1227,7 @@ ScriptedImporter:
       spriteId: ad5e50b2bc511e840acfdc4f1f88602d
     - name: LightCast_96_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1218,6 +1236,7 @@ ScriptedImporter:
       spriteId: b1b9e4fb0b38c74418c8ba2d40378ac4
     - name: LightCast_96_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1226,6 +1245,7 @@ ScriptedImporter:
       spriteId: 2870082ec498a0140ba52158aaab82cd
     - name: LightCast_96_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1234,6 +1254,7 @@ ScriptedImporter:
       spriteId: 461fe2a734159fa4d9ff1e2f450f8341
     - name: LightCast_96_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1242,6 +1263,7 @@ ScriptedImporter:
       spriteId: cd0072e6b8627134e99aee56a55fb00b
     - name: LightCast_96_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1250,6 +1272,7 @@ ScriptedImporter:
       spriteId: 53ee34e6c774c8c4a94d0292a2701395
     - name: LightCast_96_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1258,6 +1281,7 @@ ScriptedImporter:
       spriteId: d83bbe4e2a7694d44ac607976f12f9f3
     - name: LightCast_96_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1266,6 +1290,7 @@ ScriptedImporter:
       spriteId: 09990058166895643a8fd1a372a2e5d7
     - name: LightCast_96_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1274,6 +1299,7 @@ ScriptedImporter:
       spriteId: fca615cd13adb4b4ba88efd95a03df67
     - name: LightCast_96_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1282,6 +1308,7 @@ ScriptedImporter:
       spriteId: ed5391cf862b4b04c845273d4b40eac6
     - name: LightCast_96_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1290,6 +1317,7 @@ ScriptedImporter:
       spriteId: b9527cc4c7206904c97379b42a74412d
     - name: LightCast_96_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1298,6 +1326,7 @@ ScriptedImporter:
       spriteId: 96d407d92040353468a09aa2696c3216
     - name: LightCast_96_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1306,6 +1335,7 @@ ScriptedImporter:
       spriteId: 19060d5457439364ca53c24027abac5e
     - name: LightCast_96_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1314,6 +1344,7 @@ ScriptedImporter:
       spriteId: 844948b3f6ad7ca41871d35ec130df8a
     - name: LightCast_96_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1322,6 +1353,7 @@ ScriptedImporter:
       spriteId: f7a08bac4d4e7274595d3a3df2dbff6a
     - name: LightCast_96_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1330,6 +1362,7 @@ ScriptedImporter:
       spriteId: 908842ed6a4e20f4baeec1b452d9ace6
     - name: LightCast_96_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1338,6 +1371,7 @@ ScriptedImporter:
       spriteId: 7cc9df16623fab94d9b931a65b928985
     - name: LightCast_96_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1346,6 +1380,7 @@ ScriptedImporter:
       spriteId: d266705e316d98a49adb8596523a3eb7
     - name: LightCast_96_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1354,6 +1389,7 @@ ScriptedImporter:
       spriteId: 83967d319512cbc48beda611351320e7
     - name: LightCast_96_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1362,6 +1398,7 @@ ScriptedImporter:
       spriteId: 1ddf7ea31eb0e524a8573de5c0169f54
     - name: LightCast_96_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1370,6 +1407,7 @@ ScriptedImporter:
       spriteId: 0f3feada1b3b0cf4987cf936c3b24a93
     - name: LightCast_96_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1378,6 +1416,7 @@ ScriptedImporter:
       spriteId: 58237742322523945afc50f28da72831
     - name: LightCast_96_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1386,6 +1425,7 @@ ScriptedImporter:
       spriteId: e50246d15ee03004ab36215f505392ac
     - name: LightCast_96_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1394,6 +1434,7 @@ ScriptedImporter:
       spriteId: 5bf0670e14e790845841c95ad7f120d8
     - name: LightCast_96_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1402,6 +1443,7 @@ ScriptedImporter:
       spriteId: f0f86020c89b20942bf19385671e6cbf
     - name: LightCast_96_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1410,6 +1452,7 @@ ScriptedImporter:
       spriteId: 16af6d1866dba664eaa86a3bcd827dd5
     - name: LightCast_96_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1418,6 +1461,7 @@ ScriptedImporter:
       spriteId: 5b83894aa27fb28479ed961ada4ba67e
     - name: LightCast_96_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1426,6 +1470,7 @@ ScriptedImporter:
       spriteId: 06fa737574233304bbc6490100ea9e58
     - name: LightCast_96_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1434,6 +1479,7 @@ ScriptedImporter:
       spriteId: f642f1d61bde8de40a7aafd26a883840
     - name: LightCast_96_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1442,6 +1488,7 @@ ScriptedImporter:
       spriteId: ca9ef0c0a3e2b5f4db7d6209f82d6b56
     - name: LightCast_96_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1450,6 +1497,7 @@ ScriptedImporter:
       spriteId: e428b397191049a4699cebcf2186e059
     - name: LightCast_96_Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1458,6 +1506,7 @@ ScriptedImporter:
       spriteId: 1198fa16076e6db48b211c7ad5608686
     - name: LightCast_96_Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1466,6 +1515,7 @@ ScriptedImporter:
       spriteId: a9c6568f42392e14fb112f680e03c592
     - name: LightCast_96_Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -24
@@ -1475,6 +1525,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 96, y: 96}

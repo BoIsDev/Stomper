@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -1110,6 +1112,7 @@ ScriptedImporter:
     cells:
     - name: IceShatter_96x96_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1118,6 +1121,7 @@ ScriptedImporter:
       spriteId: 1b88a1689aa7430429108f4663d0ae36
     - name: IceShatter_96x96_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1126,6 +1130,7 @@ ScriptedImporter:
       spriteId: 99c4a15c78d909548897ee8cf04f7daa
     - name: IceShatter_96x96_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1134,6 +1139,7 @@ ScriptedImporter:
       spriteId: 2c066db446f39c543bafd5beb069ddc7
     - name: IceShatter_96x96_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1142,6 +1148,7 @@ ScriptedImporter:
       spriteId: 2580f00ed4800dd4188d8c7d4eb1a467
     - name: IceShatter_96x96_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1150,6 +1157,7 @@ ScriptedImporter:
       spriteId: 7ec34eb096973184baccbf5a7c71cc50
     - name: IceShatter_96x96_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1158,6 +1166,7 @@ ScriptedImporter:
       spriteId: be9a2f409c724a04faef6a7c815feda7
     - name: IceShatter_96x96_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1166,6 +1175,7 @@ ScriptedImporter:
       spriteId: fc7bfb2fe776c8d47a5ad86c669cbfce
     - name: IceShatter_96x96_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1174,6 +1184,7 @@ ScriptedImporter:
       spriteId: 80f12dbe9b88e4e4b9e6261e94568fa2
     - name: IceShatter_96x96_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1182,6 +1193,7 @@ ScriptedImporter:
       spriteId: 344a860742dd52f4f9f4a91b4598d01a
     - name: IceShatter_96x96_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1190,6 +1202,7 @@ ScriptedImporter:
       spriteId: 152d308ea78b383419618ab53361ab7c
     - name: IceShatter_96x96_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1198,6 +1211,7 @@ ScriptedImporter:
       spriteId: a04c4a9d8f30eaa4f8f95d325793976e
     - name: IceShatter_96x96_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1206,6 +1220,7 @@ ScriptedImporter:
       spriteId: ced52061f76963a48a40b59f488864b0
     - name: IceShatter_96x96_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1214,6 +1229,7 @@ ScriptedImporter:
       spriteId: b1f0ec82b1c96584b82c2fd9df6b323f
     - name: IceShatter_96x96_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1222,6 +1238,7 @@ ScriptedImporter:
       spriteId: 15f6149602594434fb5744ff30676c0d
     - name: IceShatter_96x96_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1230,6 +1247,7 @@ ScriptedImporter:
       spriteId: ef495bb7d3af03f4b8a5f2a18b585e61
     - name: IceShatter_96x96_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1238,6 +1256,7 @@ ScriptedImporter:
       spriteId: 9d73a36b4ff7f154db41f5fd5b0560db
     - name: IceShatter_96x96_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1246,6 +1265,7 @@ ScriptedImporter:
       spriteId: b41f3237ae87bf440bb83a15d742c669
     - name: IceShatter_96x96_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1254,6 +1274,7 @@ ScriptedImporter:
       spriteId: 777a1a8ea18b57e4f85d9db498c72b5e
     - name: IceShatter_96x96_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1262,6 +1283,7 @@ ScriptedImporter:
       spriteId: 4dd25dcb46f17244990caee66c49dc18
     - name: IceShatter_96x96_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1270,6 +1292,7 @@ ScriptedImporter:
       spriteId: 682f46a2d63e6fb4db50df64eef65888
     - name: IceShatter_96x96_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1278,6 +1301,7 @@ ScriptedImporter:
       spriteId: 22be24e3b938b9d49a0d02eec4e2a4d1
     - name: IceShatter_96x96_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1286,6 +1310,7 @@ ScriptedImporter:
       spriteId: 984a3346fecd91b4c8baf4421bd31ee0
     - name: IceShatter_96x96_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1294,6 +1319,7 @@ ScriptedImporter:
       spriteId: d1ac3e7de3e0151438dda7530cff5588
     - name: IceShatter_96x96_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1302,6 +1328,7 @@ ScriptedImporter:
       spriteId: c5abaae7ad99b5f44bd58f2b0253eca0
     - name: IceShatter_96x96_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1310,6 +1337,7 @@ ScriptedImporter:
       spriteId: d9990e42111111f4786e3517db136954
     - name: IceShatter_96x96_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1318,6 +1346,7 @@ ScriptedImporter:
       spriteId: 295c2d97e7e15aa428f64172f2741a5d
     - name: IceShatter_96x96_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1326,6 +1355,7 @@ ScriptedImporter:
       spriteId: d55c3e7bacf49c94f94f714a8a6ba86b
     - name: IceShatter_96x96_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1334,6 +1364,7 @@ ScriptedImporter:
       spriteId: 898910715933d4a4083deaec7f05f64f
     - name: IceShatter_96x96_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1342,6 +1373,7 @@ ScriptedImporter:
       spriteId: 6da7001c32646b14e894d951314b22fd
     - name: IceShatter_96x96_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1350,6 +1382,7 @@ ScriptedImporter:
       spriteId: cf381d9c226367843b64707a391ac78b
     - name: IceShatter_96x96_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1358,6 +1391,7 @@ ScriptedImporter:
       spriteId: 151c7f821cf802c4fb568f61a8429083
     - name: IceShatter_96x96_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1366,6 +1400,7 @@ ScriptedImporter:
       spriteId: 4c499626310cf8a4985620aa6023c2ee
     - name: IceShatter_96x96_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1374,6 +1409,7 @@ ScriptedImporter:
       spriteId: d8c33403d50d9874694cadc11355fffb
     - name: IceShatter_96x96_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1382,6 +1418,7 @@ ScriptedImporter:
       spriteId: 19c1822f864447d4186b19d234fa4c66
     - name: IceShatter_96x96_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1390,6 +1427,7 @@ ScriptedImporter:
       spriteId: e14432ff605056d49aa0d54347fceb2e
     - name: IceShatter_96x96_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1398,6 +1436,7 @@ ScriptedImporter:
       spriteId: 8e5b030966282b24e960453fe284c6df
     - name: IceShatter_96x96_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1406,6 +1445,7 @@ ScriptedImporter:
       spriteId: d8ab0e0232a3a7d42bc587e4933006f8
     - name: IceShatter_96x96_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1414,6 +1454,7 @@ ScriptedImporter:
       spriteId: e4ddbf3e5164b1842804081400e338ac
     - name: IceShatter_96x96_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1422,6 +1463,7 @@ ScriptedImporter:
       spriteId: 93ab12a2d0da8b34d80a446ae7c27c94
     - name: IceShatter_96x96_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1430,6 +1472,7 @@ ScriptedImporter:
       spriteId: 4f04c884f372c7a4398b7ea8c1100832
     - name: IceShatter_96x96_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1438,6 +1481,7 @@ ScriptedImporter:
       spriteId: 36c70defd0feb5041a45c8fa0462a885
     - name: IceShatter_96x96_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1446,6 +1490,7 @@ ScriptedImporter:
       spriteId: 98811675bf059f14f8b3337334a7f004
     - name: IceShatter_96x96_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1454,6 +1499,7 @@ ScriptedImporter:
       spriteId: d5a178cd2ca6e9d479466684716362af
     - name: IceShatter_96x96_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1462,6 +1508,7 @@ ScriptedImporter:
       spriteId: 7f6e5140b607bc1428bff04213ce9e69
     - name: IceShatter_96x96_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1470,6 +1517,7 @@ ScriptedImporter:
       spriteId: d7817156038a2b14aa8223926b9f112b
     - name: IceShatter_96x96_Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1478,6 +1526,7 @@ ScriptedImporter:
       spriteId: 45285da342bca6d4c93bea6412e77191
     - name: IceShatter_96x96_Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1486,6 +1535,7 @@ ScriptedImporter:
       spriteId: 3533e63f95ede8b4c946aefae68005d4
     - name: IceShatter_96x96_Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1494,6 +1544,7 @@ ScriptedImporter:
       spriteId: 5e539d49aa21d6e4398c0da1c715c288
     - name: IceShatter_96x96_Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1503,6 +1554,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 96, y: 96}

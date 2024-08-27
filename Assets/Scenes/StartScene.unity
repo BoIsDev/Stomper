@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -247,9 +246,9 @@ RectTransform:
   - {fileID: 1323371442}
   m_Father: {fileID: 1879042437}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 125, y: -20}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 50, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &187138705
@@ -6324,7 +6323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3739683960903001822, guid: edf489108b8c0984982c3f94eb479446, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -18
+      value: -18.000015
       objectReference: {fileID: 0}
     - target: {fileID: 4013641969321880889, guid: edf489108b8c0984982c3f94eb479446, type: 3}
       propertyPath: m_AnchorMax.y
@@ -6348,6 +6347,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5328163144419669980, guid: edf489108b8c0984982c3f94eb479446, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6307972097685313041, guid: edf489108b8c0984982c3f94eb479446, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6805504094124289436, guid: edf489108b8c0984982c3f94eb479446, type: 3}
@@ -6485,6 +6488,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4891086658706230978, guid: edf489108b8c0984982c3f94eb479446, type: 3}
     - {fileID: 7074178795822507305, guid: edf489108b8c0984982c3f94eb479446, type: 3}
+    - {fileID: 7526803311149811257, guid: edf489108b8c0984982c3f94eb479446, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3739683960903001822, guid: edf489108b8c0984982c3f94eb479446, type: 3}
@@ -7499,9 +7503,9 @@ RectTransform:
   - {fileID: 1308068697}
   m_Father: {fileID: 1879042437}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 40, y: -20}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 80, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1932043780
@@ -7683,7 +7687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2027538915
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7759,13 +7763,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   btnPrePage: {fileID: 1932043780}
   btnNextPage: {fileID: 2119975659}
-  txtNumberPage: {fileID: 1323371443}
-  holdMapLevel: {fileID: 627794812}
   btnUnLockLevel: {fileID: 1121872449}
   btnLockLevel: {fileID: 601585054}
   btnBoos: {fileID: 2060848980}
+  txtNumberPage: {fileID: 1323371443}
+  holdMapLevel: {fileID: 627794812}
   maxMap: 17
   initNumberPage: 1
+  currentMap: 1
 --- !u!1001 &2054286925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7979,9 +7984,9 @@ RectTransform:
   - {fileID: 2022231330}
   m_Father: {fileID: 1879042437}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 210, y: -20}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 80, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2119975659

@@ -39,7 +39,7 @@ public class UIController : MonoBehaviour
     {
         panelPause.SetActive(false);
         Scene currentScene = SceneManager.GetActiveScene();
-        if (currentScene.name == "boss")
+        if (currentScene.name == "3")
         {
             txtTimeBoss.gameObject.SetActive(true);
             isCoin = false;

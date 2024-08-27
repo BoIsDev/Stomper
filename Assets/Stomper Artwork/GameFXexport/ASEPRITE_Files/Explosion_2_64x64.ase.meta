@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -1010,6 +1012,7 @@ ScriptedImporter:
     cells:
     - name: Explosion_2_64x64_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1018,6 +1021,7 @@ ScriptedImporter:
       spriteId: dc339c721c8b40b45b1a2aa60d04f06b
     - name: Explosion_2_64x64_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1026,6 +1030,7 @@ ScriptedImporter:
       spriteId: 9076cd5173ace8a45977d9cebf8884fd
     - name: Explosion_2_64x64_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1034,6 +1039,7 @@ ScriptedImporter:
       spriteId: 63ce2ddad11d98442b965b3e5150cd58
     - name: Explosion_2_64x64_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1042,6 +1048,7 @@ ScriptedImporter:
       spriteId: bf4b150722e6202449ac89390e047168
     - name: Explosion_2_64x64_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1050,6 +1057,7 @@ ScriptedImporter:
       spriteId: fbb3227e1e7fcc74d9b72815764badbc
     - name: Explosion_2_64x64_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1058,6 +1066,7 @@ ScriptedImporter:
       spriteId: d022c84e7c7f44f4380758aa9af3dd7a
     - name: Explosion_2_64x64_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1066,6 +1075,7 @@ ScriptedImporter:
       spriteId: 9fbb4e566977b3e449e9a745ab615222
     - name: Explosion_2_64x64_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1074,6 +1084,7 @@ ScriptedImporter:
       spriteId: 0894d877b41528b4fa3ee749e74f56e7
     - name: Explosion_2_64x64_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1082,6 +1093,7 @@ ScriptedImporter:
       spriteId: 5ebefcb7ba843d34cb7b5417f3b6c0e7
     - name: Explosion_2_64x64_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1090,6 +1102,7 @@ ScriptedImporter:
       spriteId: 98b493452adb2bc42b9ae1b4ef1bbde2
     - name: Explosion_2_64x64_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1098,6 +1111,7 @@ ScriptedImporter:
       spriteId: 3ade2b0dd8af8d14cb433b4ba6908bf1
     - name: Explosion_2_64x64_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1106,6 +1120,7 @@ ScriptedImporter:
       spriteId: 598766cfca4752245a219f0287b7af71
     - name: Explosion_2_64x64_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1114,6 +1129,7 @@ ScriptedImporter:
       spriteId: c0416cf3e5071204c942895e3d4a057f
     - name: Explosion_2_64x64_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1122,6 +1138,7 @@ ScriptedImporter:
       spriteId: f909980f831b84e49947c655b4a16e21
     - name: Explosion_2_64x64_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1130,6 +1147,7 @@ ScriptedImporter:
       spriteId: 5d41f6ced144be641a80ee3ff0f74500
     - name: Explosion_2_64x64_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1138,6 +1156,7 @@ ScriptedImporter:
       spriteId: a99afe7793d92394cbc4af12a2abc96c
     - name: Explosion_2_64x64_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1146,6 +1165,7 @@ ScriptedImporter:
       spriteId: 8d5f8a4bb9377134493f6cf762c97116
     - name: Explosion_2_64x64_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1154,6 +1174,7 @@ ScriptedImporter:
       spriteId: 62e1c1e9722fe134f8c7a5c0902eb182
     - name: Explosion_2_64x64_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1162,6 +1183,7 @@ ScriptedImporter:
       spriteId: 18f6656268c018f40a5e4dcf2b94886a
     - name: Explosion_2_64x64_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1170,6 +1192,7 @@ ScriptedImporter:
       spriteId: a81cd06e87c67df4ba62f027176bb0fb
     - name: Explosion_2_64x64_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1178,6 +1201,7 @@ ScriptedImporter:
       spriteId: d7665106f9277b2419de1b116da10f24
     - name: Explosion_2_64x64_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1186,6 +1210,7 @@ ScriptedImporter:
       spriteId: d7a966b5c10f52048b15110ff8877d95
     - name: Explosion_2_64x64_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1194,6 +1219,7 @@ ScriptedImporter:
       spriteId: dcb142d6fbbf22d4ba25111922d40d27
     - name: Explosion_2_64x64_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1202,6 +1228,7 @@ ScriptedImporter:
       spriteId: 40d790deb8601f54a8fbeaf3d0f4f698
     - name: Explosion_2_64x64_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1210,6 +1237,7 @@ ScriptedImporter:
       spriteId: b18f8c77878626747a51a6a976bcf56e
     - name: Explosion_2_64x64_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1218,6 +1246,7 @@ ScriptedImporter:
       spriteId: 8d9bc822111e9414a9bd9eb8cfdb013b
     - name: Explosion_2_64x64_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1226,6 +1255,7 @@ ScriptedImporter:
       spriteId: 937165bc10dd2cf4788b08043fe1463f
     - name: Explosion_2_64x64_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1234,6 +1264,7 @@ ScriptedImporter:
       spriteId: 3fb29537836bd3440b98a1df104da52d
     - name: Explosion_2_64x64_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1242,6 +1273,7 @@ ScriptedImporter:
       spriteId: 0215706d400ddd14886a2547af6d1ee9
     - name: Explosion_2_64x64_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1250,6 +1282,7 @@ ScriptedImporter:
       spriteId: 7104e1f0ceb49814583aeb18b21c6d92
     - name: Explosion_2_64x64_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1258,6 +1291,7 @@ ScriptedImporter:
       spriteId: 109ef8588a7992b448f1f2138afb5741
     - name: Explosion_2_64x64_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1266,6 +1300,7 @@ ScriptedImporter:
       spriteId: 832ae2dcd54ee714c93948e65516c1a8
     - name: Explosion_2_64x64_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1274,6 +1309,7 @@ ScriptedImporter:
       spriteId: 968facbdd53015048ab7faa192f93819
     - name: Explosion_2_64x64_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1282,6 +1318,7 @@ ScriptedImporter:
       spriteId: 0c64b77b96ed8fd448ec66bb0d76f6eb
     - name: Explosion_2_64x64_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1290,6 +1327,7 @@ ScriptedImporter:
       spriteId: 83c21f653eb8dd24890f76dd95fa5a74
     - name: Explosion_2_64x64_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1298,6 +1336,7 @@ ScriptedImporter:
       spriteId: 96461e63c5e17fc4397171adb645aa0c
     - name: Explosion_2_64x64_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1306,6 +1345,7 @@ ScriptedImporter:
       spriteId: 58d4089a9102111449ed016831e9e65e
     - name: Explosion_2_64x64_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1314,6 +1354,7 @@ ScriptedImporter:
       spriteId: a4d8827d7b231cc41a255922efa5eb3c
     - name: Explosion_2_64x64_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1322,6 +1363,7 @@ ScriptedImporter:
       spriteId: ed824a44757059642bc3e9515cdc4083
     - name: Explosion_2_64x64_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1330,6 +1372,7 @@ ScriptedImporter:
       spriteId: 02e8c7fbe0013cf42b59b8a4b4297a3a
     - name: Explosion_2_64x64_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1338,6 +1381,7 @@ ScriptedImporter:
       spriteId: f979359b6900eea41bc495724b40ee60
     - name: Explosion_2_64x64_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1346,6 +1390,7 @@ ScriptedImporter:
       spriteId: 573e64d0cfb616246aecda01446574b6
     - name: Explosion_2_64x64_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1354,6 +1399,7 @@ ScriptedImporter:
       spriteId: c117cad14120f7649840a5002c1c40c1
     - name: Explosion_2_64x64_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -36
@@ -1363,6 +1409,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

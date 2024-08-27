@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -430,6 +432,7 @@ ScriptedImporter:
     cells:
     - name: Fire_I_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -438,6 +441,7 @@ ScriptedImporter:
       spriteId: ab1efc5dd296d5d4d9860834381d074c
     - name: Fire_I_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -446,6 +450,7 @@ ScriptedImporter:
       spriteId: 6c5dd11076cb2324da4af70a3ccf7c9d
     - name: Fire_I_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -454,6 +459,7 @@ ScriptedImporter:
       spriteId: 2a5a5baf17625d142bc10378048ab0a2
     - name: Fire_I_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -462,6 +468,7 @@ ScriptedImporter:
       spriteId: 6c515f704dca0e349a40025079393ca7
     - name: Fire_I_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -470,6 +477,7 @@ ScriptedImporter:
       spriteId: 2871531d71d15b540936a776b77008c8
     - name: Fire_I_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -478,6 +486,7 @@ ScriptedImporter:
       spriteId: 281f0955521f8dc46bba39b6c5070c54
     - name: Fire_I_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -486,6 +495,7 @@ ScriptedImporter:
       spriteId: b137b6bc25a319c46a4bd3d8342f9db4
     - name: Fire_I_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -494,6 +504,7 @@ ScriptedImporter:
       spriteId: 310233488a12df645bda473b4e525eea
     - name: Fire_I_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -502,6 +513,7 @@ ScriptedImporter:
       spriteId: e18afa13327f8c34884f2501b90e5c5c
     - name: Fire_I_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -510,6 +522,7 @@ ScriptedImporter:
       spriteId: 32498389383156240ab5db2081b1b102
     - name: Fire_I_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -518,6 +531,7 @@ ScriptedImporter:
       spriteId: 6455e22b5b6bf2b46b57eb285efbf827
     - name: Fire_I_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -526,6 +540,7 @@ ScriptedImporter:
       spriteId: 4c9be5410c150044c828cf7093bfc318
     - name: Fire_I_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -534,6 +549,7 @@ ScriptedImporter:
       spriteId: 0a9da18885313fb4aba228a713c4923e
     - name: Fire_I_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -542,6 +558,7 @@ ScriptedImporter:
       spriteId: 24e5d7cdc91a4a6458a1a8d4b62d45fa
     - name: Fire_I_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -599,6 +616,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 16, y: 16}

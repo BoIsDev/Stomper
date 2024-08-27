@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -690,6 +692,7 @@ ScriptedImporter:
     cells:
     - name: FireCast_96x96_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -698,6 +701,7 @@ ScriptedImporter:
       spriteId: 4789337ad8b659441947e2a404a7865e
     - name: FireCast_96x96_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -706,6 +710,7 @@ ScriptedImporter:
       spriteId: 67812feb77e183940bedb2235b77943d
     - name: FireCast_96x96_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -714,6 +719,7 @@ ScriptedImporter:
       spriteId: 3fd4b5e6856118c4f8e0c7c93b1429ec
     - name: FireCast_96x96_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -722,6 +728,7 @@ ScriptedImporter:
       spriteId: 19d3c8ea657271f42b1f22db0d5fcd40
     - name: FireCast_96x96_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -730,6 +737,7 @@ ScriptedImporter:
       spriteId: a8b4ba6fbbb24a042b616f536b9e9a3e
     - name: FireCast_96x96_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -738,6 +746,7 @@ ScriptedImporter:
       spriteId: 2b8bd65c4dc7f494da7a8213409a4d0b
     - name: FireCast_96x96_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -746,6 +755,7 @@ ScriptedImporter:
       spriteId: bcc87a563007d8b4e97fc1f5105149da
     - name: FireCast_96x96_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -754,6 +764,7 @@ ScriptedImporter:
       spriteId: 2a5e0b1c62627934ea9610f9a0ea7d0c
     - name: FireCast_96x96_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -762,6 +773,7 @@ ScriptedImporter:
       spriteId: 6c84e534d8294a3489ebb2bab2548620
     - name: FireCast_96x96_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -770,6 +782,7 @@ ScriptedImporter:
       spriteId: b2947b999f868ae4794e24e2f8605689
     - name: FireCast_96x96_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -778,6 +791,7 @@ ScriptedImporter:
       spriteId: 6025505cd4437844093202c9dfdfb40a
     - name: FireCast_96x96_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -786,6 +800,7 @@ ScriptedImporter:
       spriteId: c3f8cc22b27936d4bac53b64c4a7c358
     - name: FireCast_96x96_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -794,6 +809,7 @@ ScriptedImporter:
       spriteId: 46091b6e2dc19104f866ca7a5df598df
     - name: FireCast_96x96_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -802,6 +818,7 @@ ScriptedImporter:
       spriteId: a603a5609a8dff946aa955f3056297c2
     - name: FireCast_96x96_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -810,6 +827,7 @@ ScriptedImporter:
       spriteId: 8921b32ab359fae47aac0d5976758b41
     - name: FireCast_96x96_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -818,6 +836,7 @@ ScriptedImporter:
       spriteId: 2085a9e18f46a6847adfc0f2939d7458
     - name: FireCast_96x96_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -826,6 +845,7 @@ ScriptedImporter:
       spriteId: 017b932705342ca4684151f812769a0f
     - name: FireCast_96x96_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -834,6 +854,7 @@ ScriptedImporter:
       spriteId: 191e00200f49abc468ed047536494bad
     - name: FireCast_96x96_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -842,6 +863,7 @@ ScriptedImporter:
       spriteId: 4879f792a943f2e479fbe4c9100a1982
     - name: FireCast_96x96_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -850,6 +872,7 @@ ScriptedImporter:
       spriteId: e4b506cd56757564b966da2719d03f0d
     - name: FireCast_96x96_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -858,6 +881,7 @@ ScriptedImporter:
       spriteId: edfa6f2eaaefe8d409bbf4658b65fa84
     - name: FireCast_96x96_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -866,6 +890,7 @@ ScriptedImporter:
       spriteId: ba0e25320dd199a4e8413aa406dd6710
     - name: FireCast_96x96_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -874,6 +899,7 @@ ScriptedImporter:
       spriteId: e8a121fd4e3175e4991ebd6065ecb484
     - name: FireCast_96x96_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -882,6 +908,7 @@ ScriptedImporter:
       spriteId: 3e10cdd3c6557504ba83c11027ddd6d2
     - name: FireCast_96x96_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -890,6 +917,7 @@ ScriptedImporter:
       spriteId: 892540eeae89e6c4cb045e906421cdd5
     - name: FireCast_96x96_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -898,6 +926,7 @@ ScriptedImporter:
       spriteId: 835dd5baa79f6244685aa5d0cca4af19
     - name: FireCast_96x96_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -906,6 +935,7 @@ ScriptedImporter:
       spriteId: 7359516262d20f44cb08b6a67f0389e7
     - name: FireCast_96x96_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -20
         y: -18
@@ -915,6 +945,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 96, y: 96}

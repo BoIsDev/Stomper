@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -1910,6 +1912,7 @@ ScriptedImporter:
     cells:
     - name: TornadoMoving_96x96_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1918,6 +1921,7 @@ ScriptedImporter:
       spriteId: 6ec3c144c6f9855419974436bac7652f
     - name: TornadoMoving_96x96_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1926,6 +1930,7 @@ ScriptedImporter:
       spriteId: 6caf3994bcc89eb4485d39d534eb74b0
     - name: TornadoMoving_96x96_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1934,6 +1939,7 @@ ScriptedImporter:
       spriteId: f3f20aa0564a95b4e81ddee86eaeeb16
     - name: TornadoMoving_96x96_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1942,6 +1948,7 @@ ScriptedImporter:
       spriteId: 72ae5b0d6c4dda24994f60cfac8d6275
     - name: TornadoMoving_96x96_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1950,6 +1957,7 @@ ScriptedImporter:
       spriteId: 4c4b1bde7ad9ffc4caba352b85a717ab
     - name: TornadoMoving_96x96_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1958,6 +1966,7 @@ ScriptedImporter:
       spriteId: e244fbdcaf8cb5647948155d9bca36b4
     - name: TornadoMoving_96x96_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1966,6 +1975,7 @@ ScriptedImporter:
       spriteId: 6672348a665225b4facae1ab36d14804
     - name: TornadoMoving_96x96_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1974,6 +1984,7 @@ ScriptedImporter:
       spriteId: cca2e54bb966b6f418ea20d726d2fb57
     - name: TornadoMoving_96x96_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1982,6 +1993,7 @@ ScriptedImporter:
       spriteId: 95c91c0f465caa9418a67db0806ac405
     - name: TornadoMoving_96x96_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1990,6 +2002,7 @@ ScriptedImporter:
       spriteId: 4b61ac554b9ed8c4eadfca24a17f5cc7
     - name: TornadoMoving_96x96_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -1998,6 +2011,7 @@ ScriptedImporter:
       spriteId: 0336a30ec7e4d1345ada2a30d38ac909
     - name: TornadoMoving_96x96_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2006,6 +2020,7 @@ ScriptedImporter:
       spriteId: fff70ca0f8186334e9864d5615df58eb
     - name: TornadoMoving_96x96_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2014,6 +2029,7 @@ ScriptedImporter:
       spriteId: 994dd8f9abef703459d612b50bfb7cc3
     - name: TornadoMoving_96x96_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2022,6 +2038,7 @@ ScriptedImporter:
       spriteId: 305dc8b99356f6946bd74a4ac7c2ce6e
     - name: TornadoMoving_96x96_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2030,6 +2047,7 @@ ScriptedImporter:
       spriteId: 9bcf4b364f5cf2541bce23b580b21d1e
     - name: TornadoMoving_96x96_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2038,6 +2056,7 @@ ScriptedImporter:
       spriteId: 549eb6fe0d9b1ba4c95eb60dbea11983
     - name: TornadoMoving_96x96_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2046,6 +2065,7 @@ ScriptedImporter:
       spriteId: ba804f564bceaf34dbe608bb8f0e668e
     - name: TornadoMoving_96x96_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2054,6 +2074,7 @@ ScriptedImporter:
       spriteId: 0bb146967ac838a48b0262b8eb249784
     - name: TornadoMoving_96x96_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2062,6 +2083,7 @@ ScriptedImporter:
       spriteId: ed1af4e3f7e8f964c81e8c99bee4138f
     - name: TornadoMoving_96x96_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2070,6 +2092,7 @@ ScriptedImporter:
       spriteId: 816f3531379fc6d4c96fa72b827d8673
     - name: TornadoMoving_96x96_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2078,6 +2101,7 @@ ScriptedImporter:
       spriteId: 182d973decfc6034e94d3e8eb9181c38
     - name: TornadoMoving_96x96_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2086,6 +2110,7 @@ ScriptedImporter:
       spriteId: 3fcdc560f69340441ac46c89e7c9653b
     - name: TornadoMoving_96x96_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2094,6 +2119,7 @@ ScriptedImporter:
       spriteId: bc6c362a79c54904b8e3cc5b8f21df93
     - name: TornadoMoving_96x96_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2102,6 +2128,7 @@ ScriptedImporter:
       spriteId: e8d2884adf2b7b64dbadc2318b83d5cb
     - name: TornadoMoving_96x96_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2110,6 +2137,7 @@ ScriptedImporter:
       spriteId: f9b3b4206e4a21c479054a5a716cb62f
     - name: TornadoMoving_96x96_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2118,6 +2146,7 @@ ScriptedImporter:
       spriteId: 35b7a04ebfb090e4693b8da33f0a4789
     - name: TornadoMoving_96x96_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2126,6 +2155,7 @@ ScriptedImporter:
       spriteId: d469454d383c7804890b14fddf1eff91
     - name: TornadoMoving_96x96_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2134,6 +2164,7 @@ ScriptedImporter:
       spriteId: fa234e1110c1dfa4b91fa30b1422d8e8
     - name: TornadoMoving_96x96_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2142,6 +2173,7 @@ ScriptedImporter:
       spriteId: d1a8923a0e2da2d4a9c305d057f8ee9d
     - name: TornadoMoving_96x96_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2150,6 +2182,7 @@ ScriptedImporter:
       spriteId: 13ff6c4b647cb464783ed54041ed90c4
     - name: TornadoMoving_96x96_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2158,6 +2191,7 @@ ScriptedImporter:
       spriteId: af5f42b1e9f0f4a428f4fe4154bc2504
     - name: TornadoMoving_96x96_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2166,6 +2200,7 @@ ScriptedImporter:
       spriteId: e6c5a9bd12d763c479dd40aa72423a7f
     - name: TornadoMoving_96x96_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2174,6 +2209,7 @@ ScriptedImporter:
       spriteId: ac19dcba73bc1484eb891ddd29b855dc
     - name: TornadoMoving_96x96_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2182,6 +2218,7 @@ ScriptedImporter:
       spriteId: 171850b1c3698a64e9d9ce6f022fac37
     - name: TornadoMoving_96x96_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2190,6 +2227,7 @@ ScriptedImporter:
       spriteId: 7dfd9431694fc0045b23f4334f0e1d7e
     - name: TornadoMoving_96x96_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2198,6 +2236,7 @@ ScriptedImporter:
       spriteId: e8165a265964f674988890b9482d1725
     - name: TornadoMoving_96x96_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2206,6 +2245,7 @@ ScriptedImporter:
       spriteId: 412040235a218f447869ea30f70019ae
     - name: TornadoMoving_96x96_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2214,6 +2254,7 @@ ScriptedImporter:
       spriteId: 7ef81d7aec70a1b48be5cb2a80916453
     - name: TornadoMoving_96x96_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2222,6 +2263,7 @@ ScriptedImporter:
       spriteId: e1cc96ccd36771d47bbbd67ab06aa063
     - name: TornadoMoving_96x96_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2230,6 +2272,7 @@ ScriptedImporter:
       spriteId: 964d0698f0ffc1c45b66c6385ddce3ad
     - name: TornadoMoving_96x96_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2238,6 +2281,7 @@ ScriptedImporter:
       spriteId: dfd55dc44059d2a44a0fed5b32b3e7af
     - name: TornadoMoving_96x96_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2246,6 +2290,7 @@ ScriptedImporter:
       spriteId: 916dc0a612cf4cd4ba04bdb8fd17f2b8
     - name: TornadoMoving_96x96_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2254,6 +2299,7 @@ ScriptedImporter:
       spriteId: 9988d39a4aa417642bfee6d66f09a65d
     - name: TornadoMoving_96x96_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2262,6 +2308,7 @@ ScriptedImporter:
       spriteId: 1cf0b000e9d7e374a8f9feece1fbdcda
     - name: TornadoMoving_96x96_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2270,6 +2317,7 @@ ScriptedImporter:
       spriteId: 26cf2cbf3f0bc6e4dbe00248187c3b83
     - name: TornadoMoving_96x96_Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2278,6 +2326,7 @@ ScriptedImporter:
       spriteId: 0728259876295ca4c86464a9856df4f7
     - name: TornadoMoving_96x96_Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2286,6 +2335,7 @@ ScriptedImporter:
       spriteId: 2b095e598f6ded74aaf8f24bd772cc87
     - name: TornadoMoving_96x96_Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2294,6 +2344,7 @@ ScriptedImporter:
       spriteId: 56dbb905f7b0e674fabe8bdde54b8d5e
     - name: TornadoMoving_96x96_Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2302,6 +2353,7 @@ ScriptedImporter:
       spriteId: 123ecee9e2f18474abf6e8c2b3c10120
     - name: TornadoMoving_96x96_Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2310,6 +2362,7 @@ ScriptedImporter:
       spriteId: 234217ae133c93a41bd7c2312b6a87a7
     - name: TornadoMoving_96x96_Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2318,6 +2371,7 @@ ScriptedImporter:
       spriteId: 37fbf6137a30dde40b736c6fa4417cfa
     - name: TornadoMoving_96x96_Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2326,6 +2380,7 @@ ScriptedImporter:
       spriteId: c68068818127bb34c84a10d2ef3a0824
     - name: TornadoMoving_96x96_Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2334,6 +2389,7 @@ ScriptedImporter:
       spriteId: b3c78bc40986f0d41ad35052ad8cea42
     - name: TornadoMoving_96x96_Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2342,6 +2398,7 @@ ScriptedImporter:
       spriteId: fca455e4ac48aee4f956d3955aeed112
     - name: TornadoMoving_96x96_Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2350,6 +2407,7 @@ ScriptedImporter:
       spriteId: 463fd4ca2317258459a1e107ede2e65c
     - name: TornadoMoving_96x96_Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2358,6 +2416,7 @@ ScriptedImporter:
       spriteId: 10e3f38767eac224fa85c371ea449d1c
     - name: TornadoMoving_96x96_Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2366,6 +2425,7 @@ ScriptedImporter:
       spriteId: 12ac6c6303f798c4aba17781db3c2de1
     - name: TornadoMoving_96x96_Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2374,6 +2434,7 @@ ScriptedImporter:
       spriteId: c3fefbee163433f44990786d06d5319c
     - name: TornadoMoving_96x96_Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2382,6 +2443,7 @@ ScriptedImporter:
       spriteId: c566db94b91e8b2469f1d1daa0cce3fd
     - name: TornadoMoving_96x96_Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2390,6 +2452,7 @@ ScriptedImporter:
       spriteId: 775338a2786536445a81e9afd2f3ab26
     - name: TornadoMoving_96x96_Frame_60
       frameIndex: 60
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2398,6 +2461,7 @@ ScriptedImporter:
       spriteId: f4090100aeb477447aa1288e1fd7b2bc
     - name: TornadoMoving_96x96_Frame_61
       frameIndex: 61
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2406,6 +2470,7 @@ ScriptedImporter:
       spriteId: 7d91b0b78ea2e12459bdb5c44b74e39a
     - name: TornadoMoving_96x96_Frame_62
       frameIndex: 62
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2414,6 +2479,7 @@ ScriptedImporter:
       spriteId: 0c351b3cdb201c54189aa11709b5dc9e
     - name: TornadoMoving_96x96_Frame_63
       frameIndex: 63
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2422,6 +2488,7 @@ ScriptedImporter:
       spriteId: acbfee75e7017864f9737f38aacf1f8e
     - name: TornadoMoving_96x96_Frame_64
       frameIndex: 64
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2430,6 +2497,7 @@ ScriptedImporter:
       spriteId: 902fe3e013af2794b9f7ed9976326627
     - name: TornadoMoving_96x96_Frame_65
       frameIndex: 65
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2438,6 +2506,7 @@ ScriptedImporter:
       spriteId: 894ae22c1cd973c44b0c6a92d3b7132d
     - name: TornadoMoving_96x96_Frame_66
       frameIndex: 66
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2446,6 +2515,7 @@ ScriptedImporter:
       spriteId: 0e10bc20aee43aa47a9ffdb901a26b8a
     - name: TornadoMoving_96x96_Frame_67
       frameIndex: 67
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2454,6 +2524,7 @@ ScriptedImporter:
       spriteId: 06b57e65585690846bab8db60a35b0d3
     - name: TornadoMoving_96x96_Frame_68
       frameIndex: 68
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2462,6 +2533,7 @@ ScriptedImporter:
       spriteId: dc58afddff54813448b8c3c809cbb99d
     - name: TornadoMoving_96x96_Frame_69
       frameIndex: 69
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2470,6 +2542,7 @@ ScriptedImporter:
       spriteId: dd4d0d74ef52c784391895e9498f6995
     - name: TornadoMoving_96x96_Frame_70
       frameIndex: 70
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2478,6 +2551,7 @@ ScriptedImporter:
       spriteId: fa2209f820232c24cbbdb586647d7612
     - name: TornadoMoving_96x96_Frame_71
       frameIndex: 71
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2486,6 +2560,7 @@ ScriptedImporter:
       spriteId: 6e8b75f23d5672e4aa3e99e9476c98d2
     - name: TornadoMoving_96x96_Frame_72
       frameIndex: 72
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2494,6 +2569,7 @@ ScriptedImporter:
       spriteId: 5ab6e4bc59f903e44831379026e11855
     - name: TornadoMoving_96x96_Frame_73
       frameIndex: 73
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2502,6 +2578,7 @@ ScriptedImporter:
       spriteId: df0406278dc5f6b448848356498bc3f3
     - name: TornadoMoving_96x96_Frame_74
       frameIndex: 74
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2510,6 +2587,7 @@ ScriptedImporter:
       spriteId: 2bd2fe9099b558f428c8725e999679f0
     - name: TornadoMoving_96x96_Frame_75
       frameIndex: 75
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2518,6 +2596,7 @@ ScriptedImporter:
       spriteId: 0aac25d8022e0ea47b371909947a8ad0
     - name: TornadoMoving_96x96_Frame_76
       frameIndex: 76
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2526,6 +2605,7 @@ ScriptedImporter:
       spriteId: f631ded749924564f882dae63e1c8e3a
     - name: TornadoMoving_96x96_Frame_77
       frameIndex: 77
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2534,6 +2614,7 @@ ScriptedImporter:
       spriteId: c67c2f57fb66bb84a8194e59f6b7ae93
     - name: TornadoMoving_96x96_Frame_78
       frameIndex: 78
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2542,6 +2623,7 @@ ScriptedImporter:
       spriteId: 8742461a2ff3cb34c9946f8ee1814d14
     - name: TornadoMoving_96x96_Frame_79
       frameIndex: 79
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2550,6 +2632,7 @@ ScriptedImporter:
       spriteId: af38b494b6073c74893f761c0a56803a
     - name: TornadoMoving_96x96_Frame_80
       frameIndex: 80
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2558,6 +2641,7 @@ ScriptedImporter:
       spriteId: 55d4b97eef0352d468e3c339410b9c31
     - name: TornadoMoving_96x96_Frame_81
       frameIndex: 81
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2566,6 +2650,7 @@ ScriptedImporter:
       spriteId: 1f6d3134b6ec23041a543a0bf16f6314
     - name: TornadoMoving_96x96_Frame_82
       frameIndex: 82
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2574,6 +2659,7 @@ ScriptedImporter:
       spriteId: 219184eded097b341869f3dfabfbb588
     - name: TornadoMoving_96x96_Frame_83
       frameIndex: 83
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2582,6 +2668,7 @@ ScriptedImporter:
       spriteId: 0e44077ba87252443b8e866f8fb44dd6
     - name: TornadoMoving_96x96_Frame_84
       frameIndex: 84
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2590,6 +2677,7 @@ ScriptedImporter:
       spriteId: d589a56a4e82bfb47b3e24b1bef06d24
     - name: TornadoMoving_96x96_Frame_85
       frameIndex: 85
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2598,6 +2686,7 @@ ScriptedImporter:
       spriteId: 42922c32760499b4a9aee35964d9bfd1
     - name: TornadoMoving_96x96_Frame_86
       frameIndex: 86
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2606,6 +2695,7 @@ ScriptedImporter:
       spriteId: 77f7e274bfa4aaa449ff3bdcc62f1dfc
     - name: TornadoMoving_96x96_Frame_87
       frameIndex: 87
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2614,6 +2704,7 @@ ScriptedImporter:
       spriteId: c08c987c33bfd52438403ec116fafa07
     - name: TornadoMoving_96x96_Frame_88
       frameIndex: 88
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -2623,6 +2714,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 96, y: 96}

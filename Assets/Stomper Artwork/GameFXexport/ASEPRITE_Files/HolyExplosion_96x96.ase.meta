@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -690,6 +692,7 @@ ScriptedImporter:
     cells:
     - name: HolyExplosion_96x96_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -698,6 +701,7 @@ ScriptedImporter:
       spriteId: d1b9431ec6d2cb148a1a31b7a8392356
     - name: HolyExplosion_96x96_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -706,6 +710,7 @@ ScriptedImporter:
       spriteId: d32ed7fc19c655849b7a48b83a50928e
     - name: HolyExplosion_96x96_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -714,6 +719,7 @@ ScriptedImporter:
       spriteId: 427e1001386cbe945ab40f01d5d6d708
     - name: HolyExplosion_96x96_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -722,6 +728,7 @@ ScriptedImporter:
       spriteId: 7ddfabf6c79f8bf48bc6a61c4701ef52
     - name: HolyExplosion_96x96_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -730,6 +737,7 @@ ScriptedImporter:
       spriteId: 999384de76d6b514ba083dbdc900f777
     - name: HolyExplosion_96x96_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -738,6 +746,7 @@ ScriptedImporter:
       spriteId: f92e38e666bada04e904bd094a80ce5b
     - name: HolyExplosion_96x96_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -746,6 +755,7 @@ ScriptedImporter:
       spriteId: a73cb0ca233e704418dc8b142312b3ef
     - name: HolyExplosion_96x96_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -754,6 +764,7 @@ ScriptedImporter:
       spriteId: 3b4f2b38aa7fd84428f7d234d8a45945
     - name: HolyExplosion_96x96_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -762,6 +773,7 @@ ScriptedImporter:
       spriteId: 8f333f4c27ac7af4881aa6341c473d87
     - name: HolyExplosion_96x96_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -770,6 +782,7 @@ ScriptedImporter:
       spriteId: c63e6828e5f05fb47b3f70a068f0e79c
     - name: HolyExplosion_96x96_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -778,6 +791,7 @@ ScriptedImporter:
       spriteId: 2e11cdb3f1abf374f937cca367d47d8c
     - name: HolyExplosion_96x96_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -786,6 +800,7 @@ ScriptedImporter:
       spriteId: 6bb3ddbd025dd00408496fc9a40facfd
     - name: HolyExplosion_96x96_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -794,6 +809,7 @@ ScriptedImporter:
       spriteId: 3c79fd03b93b24142ae2ddcd5be9d433
     - name: HolyExplosion_96x96_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -802,6 +818,7 @@ ScriptedImporter:
       spriteId: dfc233f9775258a408a9f0c71259c206
     - name: HolyExplosion_96x96_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -810,6 +827,7 @@ ScriptedImporter:
       spriteId: 496f43d3e14aa5048b53c14945bd8a80
     - name: HolyExplosion_96x96_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -818,6 +836,7 @@ ScriptedImporter:
       spriteId: a7afa43c7d617ab449c29d946b46199d
     - name: HolyExplosion_96x96_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -826,6 +845,7 @@ ScriptedImporter:
       spriteId: 5100e31734fa737479fe0372ceda5348
     - name: HolyExplosion_96x96_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -834,6 +854,7 @@ ScriptedImporter:
       spriteId: b812dd95e3f550341b35fb65f7911621
     - name: HolyExplosion_96x96_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -842,6 +863,7 @@ ScriptedImporter:
       spriteId: 47c2e18d916329e4c9b43bce910baf7a
     - name: HolyExplosion_96x96_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -850,6 +872,7 @@ ScriptedImporter:
       spriteId: 9774d5694adbe944bb4c09ed36d3459f
     - name: HolyExplosion_96x96_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -858,6 +881,7 @@ ScriptedImporter:
       spriteId: ad3633ffbda8bda44839c876efaf236c
     - name: HolyExplosion_96x96_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -866,6 +890,7 @@ ScriptedImporter:
       spriteId: 16fe6396b8881d44aa9f80be5f4d3eff
     - name: HolyExplosion_96x96_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -874,6 +899,7 @@ ScriptedImporter:
       spriteId: c0520798b665b0b4dadb792e134316fe
     - name: HolyExplosion_96x96_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -882,6 +908,7 @@ ScriptedImporter:
       spriteId: 316ddeb86906f95409387bc93ef2e34c
     - name: HolyExplosion_96x96_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -890,6 +917,7 @@ ScriptedImporter:
       spriteId: 44e9d3ec3b2b6304e87aa707ec92840f
     - name: HolyExplosion_96x96_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -898,6 +926,7 @@ ScriptedImporter:
       spriteId: 613544e4c1981b3499f5265f927acab7
     - name: HolyExplosion_96x96_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -906,6 +935,7 @@ ScriptedImporter:
       spriteId: e45fbbe6dfff4194280645461ddd54a5
     - name: HolyExplosion_96x96_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -18
         y: -18
@@ -915,6 +945,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 96, y: 96}

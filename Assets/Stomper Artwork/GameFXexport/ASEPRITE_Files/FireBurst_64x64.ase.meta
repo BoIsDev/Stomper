@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -710,6 +712,7 @@ ScriptedImporter:
     cells:
     - name: FireBurst_64x64_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -718,6 +721,7 @@ ScriptedImporter:
       spriteId: c70f345a5e96f2e4d89fdca1417ea895
     - name: FireBurst_64x64_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -726,6 +730,7 @@ ScriptedImporter:
       spriteId: 6c702e4ed11135b4294b8860ac9fda94
     - name: FireBurst_64x64_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -734,6 +739,7 @@ ScriptedImporter:
       spriteId: b82a05eb717e3394bb2783a5e347eb15
     - name: FireBurst_64x64_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -742,6 +748,7 @@ ScriptedImporter:
       spriteId: 8a6ed5499fa239447a72a4333043d1f0
     - name: FireBurst_64x64_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -750,6 +757,7 @@ ScriptedImporter:
       spriteId: c03b7d8faf1b26e46b709ff0710ebf98
     - name: FireBurst_64x64_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -758,6 +766,7 @@ ScriptedImporter:
       spriteId: 006fcc76b58522746a7252719cb55207
     - name: FireBurst_64x64_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -766,6 +775,7 @@ ScriptedImporter:
       spriteId: ce91140ed72d6514293aa0edbaf594aa
     - name: FireBurst_64x64_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -774,6 +784,7 @@ ScriptedImporter:
       spriteId: df18909cb1e34cf4c9ce5a8f4acbea75
     - name: FireBurst_64x64_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -782,6 +793,7 @@ ScriptedImporter:
       spriteId: af5fde641058cd949aed5ba3079df379
     - name: FireBurst_64x64_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -790,6 +802,7 @@ ScriptedImporter:
       spriteId: 1c51db03b7c9a8f459cef6706f13542a
     - name: FireBurst_64x64_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -798,6 +811,7 @@ ScriptedImporter:
       spriteId: 54d67b35a3c1b5948a92a2394eec71c6
     - name: FireBurst_64x64_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -806,6 +820,7 @@ ScriptedImporter:
       spriteId: 4a059521ae73a424abf9510378ba394a
     - name: FireBurst_64x64_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -814,6 +829,7 @@ ScriptedImporter:
       spriteId: cf04550dc0146b6479dc24ecfe9dfa6a
     - name: FireBurst_64x64_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -822,6 +838,7 @@ ScriptedImporter:
       spriteId: cbcf9d6fa725eaa4cbd6ac4cf3e9d247
     - name: FireBurst_64x64_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -830,6 +847,7 @@ ScriptedImporter:
       spriteId: 290c319b682659344b4fefe9a280a65f
     - name: FireBurst_64x64_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -838,6 +856,7 @@ ScriptedImporter:
       spriteId: cec510e8902d4304eb1d1a8026123804
     - name: FireBurst_64x64_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -846,6 +865,7 @@ ScriptedImporter:
       spriteId: 3ff757a68c554d147bea25d6fa3b610f
     - name: FireBurst_64x64_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -854,6 +874,7 @@ ScriptedImporter:
       spriteId: c1b25bfeebce39c4d8e5438fe19de8fa
     - name: FireBurst_64x64_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -862,6 +883,7 @@ ScriptedImporter:
       spriteId: 463442091dbcbdd42bb97e06e6c875a3
     - name: FireBurst_64x64_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -870,6 +892,7 @@ ScriptedImporter:
       spriteId: 31f4c2feaaa42794cb03799c90c7cfda
     - name: FireBurst_64x64_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -878,6 +901,7 @@ ScriptedImporter:
       spriteId: 4bfe6ddc62d204f499c579a830ad10d9
     - name: FireBurst_64x64_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -886,6 +910,7 @@ ScriptedImporter:
       spriteId: 2e7aebe7610c16d428b64f63e9e1b0ef
     - name: FireBurst_64x64_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -894,6 +919,7 @@ ScriptedImporter:
       spriteId: 7651670fbb4cddf42a4e605dd30ce927
     - name: FireBurst_64x64_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -902,6 +928,7 @@ ScriptedImporter:
       spriteId: 751d659ed7e66174c95190c87cc868d6
     - name: FireBurst_64x64_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -910,6 +937,7 @@ ScriptedImporter:
       spriteId: cdd511901c20d1748943c66cd4d3146e
     - name: FireBurst_64x64_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -918,6 +946,7 @@ ScriptedImporter:
       spriteId: 9c6784a7d376fa040ba4fb003c974dbf
     - name: FireBurst_64x64_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -926,6 +955,7 @@ ScriptedImporter:
       spriteId: 5441a6f065a0a094fb3adec258b05855
     - name: FireBurst_64x64_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -934,6 +964,7 @@ ScriptedImporter:
       spriteId: 665a18e0f6cbb4544b828abd15fa41ff
     - name: FireBurst_64x64_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: -45
         y: -34
@@ -943,6 +974,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

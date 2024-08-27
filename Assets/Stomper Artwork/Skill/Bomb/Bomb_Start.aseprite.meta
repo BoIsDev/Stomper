@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -290,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: Bomb_Start_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 15
@@ -298,6 +301,7 @@ ScriptedImporter:
       spriteId: 5c299bfca8585304c872f9023a3e0c42
     - name: Bomb_Start_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 14
@@ -306,6 +310,7 @@ ScriptedImporter:
       spriteId: a2b56ffbb3b9ed34298adb75665d31d4
     - name: Bomb_Start_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 11
@@ -314,6 +319,7 @@ ScriptedImporter:
       spriteId: fdb812e73fd02334b96daf6bb0e0d434
     - name: Bomb_Start_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 11
@@ -322,6 +328,7 @@ ScriptedImporter:
       spriteId: 9296c3ebfdfb9d64ba6860460b902a34
     - name: Bomb_Start_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 10
@@ -330,6 +337,7 @@ ScriptedImporter:
       spriteId: 449faede9256d134c9abb7f0d5d92323
     - name: Bomb_Start_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 10
@@ -338,6 +346,7 @@ ScriptedImporter:
       spriteId: 70b91dbbc76f5aa4fb08930b94e8e2d9
     - name: Bomb_Start_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 10
@@ -346,6 +355,7 @@ ScriptedImporter:
       spriteId: 084940f5b6cb8d748ac709a1a13b3fc1
     - name: Bomb_Start_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 10
@@ -403,6 +413,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}

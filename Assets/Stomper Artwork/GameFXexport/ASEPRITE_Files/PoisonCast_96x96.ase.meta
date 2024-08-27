@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -930,6 +932,7 @@ ScriptedImporter:
     cells:
     - name: PoisonCast_96x96_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -938,6 +941,7 @@ ScriptedImporter:
       spriteId: a645f0fafca36eb49921bd0e4025f4cb
     - name: PoisonCast_96x96_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -946,6 +950,7 @@ ScriptedImporter:
       spriteId: 5583db18e8b859547894538528cebd38
     - name: PoisonCast_96x96_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -954,6 +959,7 @@ ScriptedImporter:
       spriteId: 0ee16429e22ee0b4eaaa2b2013722459
     - name: PoisonCast_96x96_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -962,6 +968,7 @@ ScriptedImporter:
       spriteId: 4001ac0a3b896b44daa54465af62a0cd
     - name: PoisonCast_96x96_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -970,6 +977,7 @@ ScriptedImporter:
       spriteId: dedeafedd4603134281512b2b1c21ff1
     - name: PoisonCast_96x96_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -978,6 +986,7 @@ ScriptedImporter:
       spriteId: c51affcf49bdfac4c91f9ca4f20d6fb3
     - name: PoisonCast_96x96_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -986,6 +995,7 @@ ScriptedImporter:
       spriteId: 0951323d27c82b041ab43707de2cce12
     - name: PoisonCast_96x96_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -994,6 +1004,7 @@ ScriptedImporter:
       spriteId: 195f09fc81286ef4780f565679c38b53
     - name: PoisonCast_96x96_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1002,6 +1013,7 @@ ScriptedImporter:
       spriteId: c58db2f9e22e57d499afb4c0dd929208
     - name: PoisonCast_96x96_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1010,6 +1022,7 @@ ScriptedImporter:
       spriteId: 616ff92e134bc234e84e7c302f5bbb54
     - name: PoisonCast_96x96_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1018,6 +1031,7 @@ ScriptedImporter:
       spriteId: 4f1b3b64ab625124f98de8e8888fab37
     - name: PoisonCast_96x96_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1026,6 +1040,7 @@ ScriptedImporter:
       spriteId: 82b8b54687a4b96438fed01a690db682
     - name: PoisonCast_96x96_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1034,6 +1049,7 @@ ScriptedImporter:
       spriteId: ad94cc790da5f6841a4bba75d8e15a15
     - name: PoisonCast_96x96_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1042,6 +1058,7 @@ ScriptedImporter:
       spriteId: 580681287d1d8a6469f09d4c6ab94cec
     - name: PoisonCast_96x96_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1050,6 +1067,7 @@ ScriptedImporter:
       spriteId: 8aac464593146744db6c73001d067e95
     - name: PoisonCast_96x96_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1058,6 +1076,7 @@ ScriptedImporter:
       spriteId: 16b083b27fd4f644d81f4166f07472a6
     - name: PoisonCast_96x96_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1066,6 +1085,7 @@ ScriptedImporter:
       spriteId: fe2015b6a4a38a0478ef8b466e1f4072
     - name: PoisonCast_96x96_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1074,6 +1094,7 @@ ScriptedImporter:
       spriteId: de143eef97025734caa390ba3c27c645
     - name: PoisonCast_96x96_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1082,6 +1103,7 @@ ScriptedImporter:
       spriteId: 40c22f0a7d161974d928ba7623c9cb4d
     - name: PoisonCast_96x96_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1090,6 +1112,7 @@ ScriptedImporter:
       spriteId: 15783208f56436046aea4c360ad6468c
     - name: PoisonCast_96x96_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1098,6 +1121,7 @@ ScriptedImporter:
       spriteId: 768556c5632022d438e8116ab4fdf169
     - name: PoisonCast_96x96_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1106,6 +1130,7 @@ ScriptedImporter:
       spriteId: f4b7e69f62d160847861494938389040
     - name: PoisonCast_96x96_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1114,6 +1139,7 @@ ScriptedImporter:
       spriteId: c73d643459794894a9ce8d38d57c78c1
     - name: PoisonCast_96x96_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1122,6 +1148,7 @@ ScriptedImporter:
       spriteId: 2c38cd78a4254834f9a21b5dc48c5e94
     - name: PoisonCast_96x96_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1130,6 +1157,7 @@ ScriptedImporter:
       spriteId: 4538bdaf86b0ad14b8b7a8d0a878cc0e
     - name: PoisonCast_96x96_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1138,6 +1166,7 @@ ScriptedImporter:
       spriteId: 4e053d3e40e9c164eb37c014af5cfb17
     - name: PoisonCast_96x96_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1146,6 +1175,7 @@ ScriptedImporter:
       spriteId: 70c0af90fceb5a34695913539e356716
     - name: PoisonCast_96x96_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1154,6 +1184,7 @@ ScriptedImporter:
       spriteId: b68e6121eb227274e93edd94111e9c94
     - name: PoisonCast_96x96_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1162,6 +1193,7 @@ ScriptedImporter:
       spriteId: f1b51a5daee72974987cb1610ab0b9cf
     - name: PoisonCast_96x96_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1170,6 +1202,7 @@ ScriptedImporter:
       spriteId: c3e447517e7b3ca42a293c22b6a35394
     - name: PoisonCast_96x96_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1178,6 +1211,7 @@ ScriptedImporter:
       spriteId: 4b06914cf2a72ad4a9e7c2e2581c0230
     - name: PoisonCast_96x96_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1186,6 +1220,7 @@ ScriptedImporter:
       spriteId: 71b0e3d6538db3b40873a982db9480eb
     - name: PoisonCast_96x96_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1194,6 +1229,7 @@ ScriptedImporter:
       spriteId: 53e4833ab21deec40937ce6f78c9974a
     - name: PoisonCast_96x96_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1202,6 +1238,7 @@ ScriptedImporter:
       spriteId: 12adcb0d51090804d81ca658ceda425b
     - name: PoisonCast_96x96_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1210,6 +1247,7 @@ ScriptedImporter:
       spriteId: 42fae82682c56ae4c9ee22258993cbf1
     - name: PoisonCast_96x96_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1218,6 +1256,7 @@ ScriptedImporter:
       spriteId: 59d508394aade7e4daa10babbfacb1ee
     - name: PoisonCast_96x96_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1226,6 +1265,7 @@ ScriptedImporter:
       spriteId: 0dd7c595082aae34e89f13b94c656db8
     - name: PoisonCast_96x96_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1234,6 +1274,7 @@ ScriptedImporter:
       spriteId: ff5e07a272b678a44a793ce6983cf456
     - name: PoisonCast_96x96_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1242,6 +1283,7 @@ ScriptedImporter:
       spriteId: 380076180ac30064da10e66c1064172b
     - name: PoisonCast_96x96_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -1251,6 +1293,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 96, y: 96}

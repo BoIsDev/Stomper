@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -1030,6 +1032,7 @@ ScriptedImporter:
     cells:
     - name: FireBall_64x64_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1038,6 +1041,7 @@ ScriptedImporter:
       spriteId: 93412ae5990317f41932d57fc3ccd03e
     - name: FireBall_64x64_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1046,6 +1050,7 @@ ScriptedImporter:
       spriteId: 6dd630af6c4ef4d4680e939b4a355a12
     - name: FireBall_64x64_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1054,6 +1059,7 @@ ScriptedImporter:
       spriteId: 9d68b9fdd902a4043808ec1896f4e807
     - name: FireBall_64x64_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1062,6 +1068,7 @@ ScriptedImporter:
       spriteId: a398d993243dee34b97d59baec03cdfc
     - name: FireBall_64x64_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1070,6 +1077,7 @@ ScriptedImporter:
       spriteId: bd5c96be246b2cc419698885295a113d
     - name: FireBall_64x64_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1078,6 +1086,7 @@ ScriptedImporter:
       spriteId: 8cdd669777c5eed44978e309ce268840
     - name: FireBall_64x64_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1086,6 +1095,7 @@ ScriptedImporter:
       spriteId: d5875d13954ba3244964468e42308ed5
     - name: FireBall_64x64_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1094,6 +1104,7 @@ ScriptedImporter:
       spriteId: cadff3a095c705f44a4231281dcdcb9b
     - name: FireBall_64x64_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1102,6 +1113,7 @@ ScriptedImporter:
       spriteId: 5c4c91a4d36a68a478dbd654e46da0d2
     - name: FireBall_64x64_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1110,6 +1122,7 @@ ScriptedImporter:
       spriteId: a2ad27d8ac8ee9f41a62937738e8f36c
     - name: FireBall_64x64_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1118,6 +1131,7 @@ ScriptedImporter:
       spriteId: 560e72f8752517d41a1142c9727fc6e4
     - name: FireBall_64x64_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1126,6 +1140,7 @@ ScriptedImporter:
       spriteId: 624667911d0d12b478747bbeaaf92b6c
     - name: FireBall_64x64_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1134,6 +1149,7 @@ ScriptedImporter:
       spriteId: 9e2060ae1a687ce4c819c9183eb7648f
     - name: FireBall_64x64_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1142,6 +1158,7 @@ ScriptedImporter:
       spriteId: 97f7fa0bcec84f74889d4b1aa9c09446
     - name: FireBall_64x64_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1150,6 +1167,7 @@ ScriptedImporter:
       spriteId: 6f743b0706cc6dd4d89cd52d83ee4450
     - name: FireBall_64x64_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1158,6 +1176,7 @@ ScriptedImporter:
       spriteId: 82f10f54a0b3ddc458b3bde75c01002f
     - name: FireBall_64x64_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1166,6 +1185,7 @@ ScriptedImporter:
       spriteId: 40d29603342da584a9aa6ae6cb6fb908
     - name: FireBall_64x64_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1174,6 +1194,7 @@ ScriptedImporter:
       spriteId: 1a9a16064545e4948924135cdaab9027
     - name: FireBall_64x64_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1182,6 +1203,7 @@ ScriptedImporter:
       spriteId: 92d1c30493eadb24a96bcb1938956216
     - name: FireBall_64x64_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1190,6 +1212,7 @@ ScriptedImporter:
       spriteId: 61c29a55571baf4448654dbe4d2f4935
     - name: FireBall_64x64_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1198,6 +1221,7 @@ ScriptedImporter:
       spriteId: aca3897304a6f9d4fb16c45421ee239a
     - name: FireBall_64x64_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1206,6 +1230,7 @@ ScriptedImporter:
       spriteId: 7ea9e68656f26514dbdfcda590c20831
     - name: FireBall_64x64_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1214,6 +1239,7 @@ ScriptedImporter:
       spriteId: 37c028b5a444f124b945f30854cd39a2
     - name: FireBall_64x64_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1222,6 +1248,7 @@ ScriptedImporter:
       spriteId: 6add213e04dde8b499972e5f1f4be028
     - name: FireBall_64x64_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1230,6 +1257,7 @@ ScriptedImporter:
       spriteId: be0833bfee7ee3d49b06cdea87a98e34
     - name: FireBall_64x64_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1238,6 +1266,7 @@ ScriptedImporter:
       spriteId: 619178c78dde0594b98856b5a5247581
     - name: FireBall_64x64_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1246,6 +1275,7 @@ ScriptedImporter:
       spriteId: 558e3f8045a7f214f833a03cbbc1f626
     - name: FireBall_64x64_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1254,6 +1284,7 @@ ScriptedImporter:
       spriteId: 87adc55645212e44fbe5e9fd238cce21
     - name: FireBall_64x64_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1262,6 +1293,7 @@ ScriptedImporter:
       spriteId: 06b4e965664f8f74a970ce6ea2f757dd
     - name: FireBall_64x64_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1270,6 +1302,7 @@ ScriptedImporter:
       spriteId: 659255e1a12677842b4804b67d8b5e10
     - name: FireBall_64x64_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1278,6 +1311,7 @@ ScriptedImporter:
       spriteId: 5a565783353ea5945ad3e7dc31c14111
     - name: FireBall_64x64_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1286,6 +1320,7 @@ ScriptedImporter:
       spriteId: 8fab8036beacf404dae22ae00b9fee04
     - name: FireBall_64x64_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1294,6 +1329,7 @@ ScriptedImporter:
       spriteId: 95ae85125aff7de46b3b413b35793d7d
     - name: FireBall_64x64_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1302,6 +1338,7 @@ ScriptedImporter:
       spriteId: 58985a771d5f3754e81f2f868db271db
     - name: FireBall_64x64_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1310,6 +1347,7 @@ ScriptedImporter:
       spriteId: 7942e59e5a7a476479da034dd7a24053
     - name: FireBall_64x64_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1318,6 +1356,7 @@ ScriptedImporter:
       spriteId: cd1b09631a045f744a2c28ba5508bb9a
     - name: FireBall_64x64_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1326,6 +1365,7 @@ ScriptedImporter:
       spriteId: 6fcf826ef7377024cb584c4999301f33
     - name: FireBall_64x64_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1334,6 +1374,7 @@ ScriptedImporter:
       spriteId: 960ff63b084898143882404247dc89d2
     - name: FireBall_64x64_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1342,6 +1383,7 @@ ScriptedImporter:
       spriteId: 936287615c57ef44d889ed630eb209be
     - name: FireBall_64x64_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1350,6 +1392,7 @@ ScriptedImporter:
       spriteId: 2ee4da97d935ded429ef87d9dd81d0fa
     - name: FireBall_64x64_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1358,6 +1401,7 @@ ScriptedImporter:
       spriteId: 9ea11f1d5a4e2b74b848613f16360945
     - name: FireBall_64x64_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1366,6 +1410,7 @@ ScriptedImporter:
       spriteId: 8b4f8678ab031e14a9b0c35e830bf881
     - name: FireBall_64x64_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1374,6 +1419,7 @@ ScriptedImporter:
       spriteId: 0600c55dcdcebac4cbd32ff0552a59c1
     - name: FireBall_64x64_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1382,6 +1428,7 @@ ScriptedImporter:
       spriteId: 3098870677ec96e4cb1c0f0344ee6943
     - name: FireBall_64x64_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: -34
         y: -34
@@ -1391,6 +1438,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

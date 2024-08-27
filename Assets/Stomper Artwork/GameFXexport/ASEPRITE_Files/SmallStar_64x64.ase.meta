@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -1330,6 +1332,7 @@ ScriptedImporter:
     cells:
     - name: SmallStar_64x64_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1338,6 +1341,7 @@ ScriptedImporter:
       spriteId: 91dbe495dc7f270408908b1eb6989123
     - name: SmallStar_64x64_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1346,6 +1350,7 @@ ScriptedImporter:
       spriteId: 454ad025ec2e5704384739beaa363631
     - name: SmallStar_64x64_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1354,6 +1359,7 @@ ScriptedImporter:
       spriteId: 77ff2aa1b8c69b648aa8d9506b6a1e87
     - name: SmallStar_64x64_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1362,6 +1368,7 @@ ScriptedImporter:
       spriteId: a022b474383d0d24380ecdfff1d13b2c
     - name: SmallStar_64x64_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1370,6 +1377,7 @@ ScriptedImporter:
       spriteId: 0fc73915945c721489ead98750efccc6
     - name: SmallStar_64x64_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1378,6 +1386,7 @@ ScriptedImporter:
       spriteId: 5475fc2d24a92704a9ce53fbbebf007c
     - name: SmallStar_64x64_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1386,6 +1395,7 @@ ScriptedImporter:
       spriteId: e46ec05164373364c8b899ff0d2c48c5
     - name: SmallStar_64x64_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1394,6 +1404,7 @@ ScriptedImporter:
       spriteId: 297fc6dd9501b1f4ab27ec2bf3cee844
     - name: SmallStar_64x64_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1402,6 +1413,7 @@ ScriptedImporter:
       spriteId: eda159923e4ecee438f48ed0d1e8b92c
     - name: SmallStar_64x64_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1410,6 +1422,7 @@ ScriptedImporter:
       spriteId: e30db60cc4e30974394424bd196d76ce
     - name: SmallStar_64x64_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1418,6 +1431,7 @@ ScriptedImporter:
       spriteId: 54d5b63875265424181602d02e66240f
     - name: SmallStar_64x64_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1426,6 +1440,7 @@ ScriptedImporter:
       spriteId: ff70928d992817f4196f28baa208832c
     - name: SmallStar_64x64_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1434,6 +1449,7 @@ ScriptedImporter:
       spriteId: d3bb19621e2f5f24ca46f825f695e1de
     - name: SmallStar_64x64_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1442,6 +1458,7 @@ ScriptedImporter:
       spriteId: eb8e4f27ff59a214d850e9e27343c607
     - name: SmallStar_64x64_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1450,6 +1467,7 @@ ScriptedImporter:
       spriteId: 7574dead62aaeb34aad568fa653a2dfd
     - name: SmallStar_64x64_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1458,6 +1476,7 @@ ScriptedImporter:
       spriteId: 4d528392b20718640b0b955975872cf6
     - name: SmallStar_64x64_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1466,6 +1485,7 @@ ScriptedImporter:
       spriteId: 2e36d7f2c82d76e4db4e88bb30812716
     - name: SmallStar_64x64_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1474,6 +1494,7 @@ ScriptedImporter:
       spriteId: 06624453b9c66bf45a6d5c46c35e3f84
     - name: SmallStar_64x64_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1482,6 +1503,7 @@ ScriptedImporter:
       spriteId: eb3473f1698b12941a30276562add6c1
     - name: SmallStar_64x64_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1490,6 +1512,7 @@ ScriptedImporter:
       spriteId: eee9ee1e0206d9c43b4bf0364b269573
     - name: SmallStar_64x64_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1498,6 +1521,7 @@ ScriptedImporter:
       spriteId: b831ce883b8bbb84d9916fc56e88f068
     - name: SmallStar_64x64_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1506,6 +1530,7 @@ ScriptedImporter:
       spriteId: 8e4bde73cdb830442971e17eea467374
     - name: SmallStar_64x64_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1514,6 +1539,7 @@ ScriptedImporter:
       spriteId: 4acffb66c2fe4ad4090578d1aa64b948
     - name: SmallStar_64x64_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1522,6 +1548,7 @@ ScriptedImporter:
       spriteId: 0835648ca20565949854d6a9554bc7cd
     - name: SmallStar_64x64_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1530,6 +1557,7 @@ ScriptedImporter:
       spriteId: f16cd51e3c00af94ea5fc6a106f0e72a
     - name: SmallStar_64x64_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1538,6 +1566,7 @@ ScriptedImporter:
       spriteId: b21dd977c76e519489c390c0d8b515a0
     - name: SmallStar_64x64_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1546,6 +1575,7 @@ ScriptedImporter:
       spriteId: 35786c2f711b9c341ad4976eb586412a
     - name: SmallStar_64x64_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1554,6 +1584,7 @@ ScriptedImporter:
       spriteId: 5d5a00e40e352954b91018a0afb9cdb6
     - name: SmallStar_64x64_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1562,6 +1593,7 @@ ScriptedImporter:
       spriteId: bc76f46cbf8793c408f0727d55c25df1
     - name: SmallStar_64x64_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1570,6 +1602,7 @@ ScriptedImporter:
       spriteId: 02dd914038b436e429c0e37f2e2b128f
     - name: SmallStar_64x64_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1578,6 +1611,7 @@ ScriptedImporter:
       spriteId: 8be703bf7ed4f2745bb9f93fb4bce8f8
     - name: SmallStar_64x64_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1586,6 +1620,7 @@ ScriptedImporter:
       spriteId: 1223250038cfa4e479712b3ffeea59cb
     - name: SmallStar_64x64_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1594,6 +1629,7 @@ ScriptedImporter:
       spriteId: c2d8b98474803044681b217a57dcb018
     - name: SmallStar_64x64_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1602,6 +1638,7 @@ ScriptedImporter:
       spriteId: 22f50c4e0c1fdf748aa58340c376d311
     - name: SmallStar_64x64_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1610,6 +1647,7 @@ ScriptedImporter:
       spriteId: fe714ea3698aba240910fa0bd65213a9
     - name: SmallStar_64x64_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1618,6 +1656,7 @@ ScriptedImporter:
       spriteId: bbc606acd864cca4bbea700e5fd600c6
     - name: SmallStar_64x64_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1626,6 +1665,7 @@ ScriptedImporter:
       spriteId: 511b7929db8b7f945bc5124bb9763609
     - name: SmallStar_64x64_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1634,6 +1674,7 @@ ScriptedImporter:
       spriteId: 488cea498a0dfa1498c1fe2acc7c331d
     - name: SmallStar_64x64_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1642,6 +1683,7 @@ ScriptedImporter:
       spriteId: df3c108cf46039143abd505d4ff6bcec
     - name: SmallStar_64x64_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1650,6 +1692,7 @@ ScriptedImporter:
       spriteId: a34fce2a3d8082449bb68e42c23afb0a
     - name: SmallStar_64x64_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1658,6 +1701,7 @@ ScriptedImporter:
       spriteId: e4dc4526bda8be74fb34684b858e9acd
     - name: SmallStar_64x64_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1666,6 +1710,7 @@ ScriptedImporter:
       spriteId: 37b8df929f7490446b851e43ae420dc4
     - name: SmallStar_64x64_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1674,6 +1719,7 @@ ScriptedImporter:
       spriteId: dd0171c73576fea4a90c833ed288bb66
     - name: SmallStar_64x64_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1682,6 +1728,7 @@ ScriptedImporter:
       spriteId: d82ee57243c5ccf4e95c0ee709308f3e
     - name: SmallStar_64x64_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1690,6 +1737,7 @@ ScriptedImporter:
       spriteId: c1d174a9adac3794a8f21285e0c12474
     - name: SmallStar_64x64_Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1698,6 +1746,7 @@ ScriptedImporter:
       spriteId: 1c83e45835c38cc4e8e4f77cb553b791
     - name: SmallStar_64x64_Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1706,6 +1755,7 @@ ScriptedImporter:
       spriteId: bdd21ee0e9513534fb315b67ba199624
     - name: SmallStar_64x64_Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1714,6 +1764,7 @@ ScriptedImporter:
       spriteId: 476654f5d08be4b47942c2be7ae64e2e
     - name: SmallStar_64x64_Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1722,6 +1773,7 @@ ScriptedImporter:
       spriteId: 7a0985b46c6655340ae601914fcfcac7
     - name: SmallStar_64x64_Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1730,6 +1782,7 @@ ScriptedImporter:
       spriteId: 695277d4742f32f4e97c77d288d03927
     - name: SmallStar_64x64_Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1738,6 +1791,7 @@ ScriptedImporter:
       spriteId: 7933421516a720d46827cf4426232f7c
     - name: SmallStar_64x64_Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1746,6 +1800,7 @@ ScriptedImporter:
       spriteId: e41ae4f4770705e46bcf2e108236ff3c
     - name: SmallStar_64x64_Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1754,6 +1809,7 @@ ScriptedImporter:
       spriteId: b769dddd60f5efa4eb1f1441bd7f6adf
     - name: SmallStar_64x64_Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1762,6 +1818,7 @@ ScriptedImporter:
       spriteId: 7de13d77c33925b43afbeb86b52feee3
     - name: SmallStar_64x64_Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1770,6 +1827,7 @@ ScriptedImporter:
       spriteId: 9ba05317caf0df840aa6e03f8cd034fb
     - name: SmallStar_64x64_Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1778,6 +1836,7 @@ ScriptedImporter:
       spriteId: b5978b9b5a2ec854a8764835f1e7f431
     - name: SmallStar_64x64_Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1786,6 +1845,7 @@ ScriptedImporter:
       spriteId: cdedfb94803549640b8f83108597c764
     - name: SmallStar_64x64_Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1794,6 +1854,7 @@ ScriptedImporter:
       spriteId: 28e47958a8665c948a762ce3d703b1eb
     - name: SmallStar_64x64_Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1802,6 +1863,7 @@ ScriptedImporter:
       spriteId: ca21865edbe0094448509fe28074cc0e
     - name: SmallStar_64x64_Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: -37
         y: -38
@@ -1811,6 +1873,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

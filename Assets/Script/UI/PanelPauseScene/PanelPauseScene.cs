@@ -9,7 +9,7 @@ public class PanelPauseScene : MonoBehaviour
     public Button btnResume;
     public Button btnNewGame;
     public Button btnSetting;
-    public Button btnExit;
+    public Button btnBackHome;
     public Button btnBack;
     public GameObject imgBoxSetting;
 
@@ -20,7 +20,7 @@ public class PanelPauseScene : MonoBehaviour
         btnNewGame.onClick.AddListener(OnNewGame);
         btnSetting.onClick.AddListener(OnSetting);
         btnBack.onClick.AddListener(OnBack);
-        btnExit.onClick.AddListener(OnExit);
+        btnBackHome.onClick.AddListener(OnBackHome);
     }
     public void OnResume()
     {
@@ -35,20 +35,15 @@ public class PanelPauseScene : MonoBehaviour
         SceneManager.LoadScene(currentScene.name);
         Debug.Log("Timeaaa: " + Time.timeScale);
         UIController.Instance.startTime = Time.time;
-
-        //if (BossController.Instance. != null)
-        //{
-        //    Debug.Log("Time: " + UIController.Instance.startTime);
-        //}
     }
     public void OnSetting()
     {
         imgBoxSetting.SetActive(true);
     }
 
-    public void OnExit()
+    public void OnBackHome()
     {
-        Application.Quit();
+        SceneManager.LoadScene("StartScene");
     }
 
     public void OnBack()

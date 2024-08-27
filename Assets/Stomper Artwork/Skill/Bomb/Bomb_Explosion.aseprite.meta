@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -390,6 +392,7 @@ ScriptedImporter:
     cells:
     - name: Bomb_Explosion_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 26
@@ -398,6 +401,7 @@ ScriptedImporter:
       spriteId: 2c8d31c0e03df1747ac8dd4bc2d56fe9
     - name: Bomb_Explosion_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 26
@@ -406,6 +410,7 @@ ScriptedImporter:
       spriteId: 435afd74137786c41adc1e8f3db82577
     - name: Bomb_Explosion_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 26
@@ -414,6 +419,7 @@ ScriptedImporter:
       spriteId: 4a23c87f563a6d742ad7835f2fc6215c
     - name: Bomb_Explosion_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 26
@@ -422,6 +428,7 @@ ScriptedImporter:
       spriteId: e1ecf3c767f26574e8795b5ff27ef388
     - name: Bomb_Explosion_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 27
@@ -430,6 +437,7 @@ ScriptedImporter:
       spriteId: e8228947cad32be4c9611b8d8d9e0c65
     - name: Bomb_Explosion_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 44
         y: 29
@@ -438,6 +446,7 @@ ScriptedImporter:
       spriteId: 4dbf01e7bbb0c1642bbc3815272b698b
     - name: Bomb_Explosion_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 46
         y: 30
@@ -446,6 +455,7 @@ ScriptedImporter:
       spriteId: 403ecc1db8e5fc54f93e5a1b9698da6e
     - name: Bomb_Explosion_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 24
@@ -454,6 +464,7 @@ ScriptedImporter:
       spriteId: 0c504719191644040a1577d1ce995bea
     - name: Bomb_Explosion_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 26
         y: 4
@@ -462,6 +473,7 @@ ScriptedImporter:
       spriteId: 5c6f4487a9779bc4ab8898648a4e3fc1
     - name: Bomb_Explosion_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -470,6 +482,7 @@ ScriptedImporter:
       spriteId: fa8b24a740e37774d9ababbde26e0545
     - name: Bomb_Explosion_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 0
@@ -478,6 +491,7 @@ ScriptedImporter:
       spriteId: c945ddf61f28ee14e92ff12a0d45b8f7
     - name: Bomb_Explosion_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 0
@@ -486,6 +500,7 @@ ScriptedImporter:
       spriteId: 82ce2ba9c5b1cac4c867137c7805edc8
     - name: Bomb_Explosion_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -495,6 +510,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 96, y: 48}

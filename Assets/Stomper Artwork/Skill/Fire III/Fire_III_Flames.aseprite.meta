@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -490,6 +492,7 @@ ScriptedImporter:
     cells:
     - name: Fire_III_Flames_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -498,6 +501,7 @@ ScriptedImporter:
       spriteId: 31b688b58cfe03a44a7d65f346472e28
     - name: Fire_III_Flames_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -506,6 +510,7 @@ ScriptedImporter:
       spriteId: 248bb709c3ee13043b3fe0b20df37346
     - name: Fire_III_Flames_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -514,6 +519,7 @@ ScriptedImporter:
       spriteId: 75b650670e5184f4e97275c6c9bf0338
     - name: Fire_III_Flames_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -522,6 +528,7 @@ ScriptedImporter:
       spriteId: a9d1990ee01a8ba44959a8ee0853be61
     - name: Fire_III_Flames_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -530,6 +537,7 @@ ScriptedImporter:
       spriteId: e1580ceb6b4038e4aaf6d3a6289d513e
     - name: Fire_III_Flames_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 37
@@ -538,6 +546,7 @@ ScriptedImporter:
       spriteId: fd3631c3d0c08eb47a48773c9a154500
     - name: Fire_III_Flames_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -546,6 +555,7 @@ ScriptedImporter:
       spriteId: 2860df1c9b4442d4e9cd41c05585edd7
     - name: Fire_III_Flames_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 0
@@ -554,6 +564,7 @@ ScriptedImporter:
       spriteId: 67678094e192be948827dbe6c2391c19
     - name: Fire_III_Flames_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -562,6 +573,7 @@ ScriptedImporter:
       spriteId: 5d2665a6b3fdd5e4f98de479fb57ea2d
     - name: Fire_III_Flames_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -570,6 +582,7 @@ ScriptedImporter:
       spriteId: 24159474371fa5d4aaf9939caa95f86a
     - name: Fire_III_Flames_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -578,6 +591,7 @@ ScriptedImporter:
       spriteId: 3aa892d905c31de43b2b78ea6d27bbc8
     - name: Fire_III_Flames_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 0
@@ -586,6 +600,7 @@ ScriptedImporter:
       spriteId: 690fa734a74aced468e44d40c3a62788
     - name: Fire_III_Flames_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -594,6 +609,7 @@ ScriptedImporter:
       spriteId: 3c5ef3e2836f0414993fd8305f6710df
     - name: Fire_III_Flames_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -602,6 +618,7 @@ ScriptedImporter:
       spriteId: 71bc930de763f0e41ac72afc661a9444
     - name: Fire_III_Flames_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -610,6 +627,7 @@ ScriptedImporter:
       spriteId: a65db2d9907cbe1468bf39ae90bb2fc4
     - name: Fire_III_Flames_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -618,6 +636,7 @@ ScriptedImporter:
       spriteId: 209779db01d1cb542bf12fb0f80b8793
     - name: Fire_III_Flames_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -626,6 +645,7 @@ ScriptedImporter:
       spriteId: 8caeb6a59ee49e24fba79359d995bcf6
     - name: Fire_III_Flames_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -683,6 +703,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 80, y: 48}

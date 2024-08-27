@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -750,6 +752,7 @@ ScriptedImporter:
     cells:
     - name: PoisonClaw_96x96_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -758,6 +761,7 @@ ScriptedImporter:
       spriteId: 2da31efffbc4ed743beb52a37da15dd4
     - name: PoisonClaw_96x96_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -766,6 +770,7 @@ ScriptedImporter:
       spriteId: be0a2c8d5ceb79443a741f36e79d9a7d
     - name: PoisonClaw_96x96_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -774,6 +779,7 @@ ScriptedImporter:
       spriteId: a524e746b92bd8b4f89f9639513e7c78
     - name: PoisonClaw_96x96_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -782,6 +788,7 @@ ScriptedImporter:
       spriteId: 4d0ddde0b84aa7842bea491562e21e36
     - name: PoisonClaw_96x96_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -790,6 +797,7 @@ ScriptedImporter:
       spriteId: a56de5fb9f53f9f46bddf843999273fd
     - name: PoisonClaw_96x96_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -798,6 +806,7 @@ ScriptedImporter:
       spriteId: d68f091bdc92f5b4db2dde903a871b18
     - name: PoisonClaw_96x96_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -806,6 +815,7 @@ ScriptedImporter:
       spriteId: a1f49488510d00b47b4a7294cdbe681a
     - name: PoisonClaw_96x96_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -814,6 +824,7 @@ ScriptedImporter:
       spriteId: df0d1b84ff9fdb748acd2b7c1d7c6ddb
     - name: PoisonClaw_96x96_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -822,6 +833,7 @@ ScriptedImporter:
       spriteId: dcbde6643f7bde044a2547dd131d9238
     - name: PoisonClaw_96x96_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -830,6 +842,7 @@ ScriptedImporter:
       spriteId: 43d553c6b783cbb429becc934344c60d
     - name: PoisonClaw_96x96_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -838,6 +851,7 @@ ScriptedImporter:
       spriteId: f5c4be414b8650745a60e400cbec85a0
     - name: PoisonClaw_96x96_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -846,6 +860,7 @@ ScriptedImporter:
       spriteId: 9cb2ea60de36ae94c9bf5096fc01700e
     - name: PoisonClaw_96x96_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -854,6 +869,7 @@ ScriptedImporter:
       spriteId: 113df271d7f30c64188a97c68058517b
     - name: PoisonClaw_96x96_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -862,6 +878,7 @@ ScriptedImporter:
       spriteId: a2f700e5f1692fc45b538ecf31dfe0fb
     - name: PoisonClaw_96x96_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -870,6 +887,7 @@ ScriptedImporter:
       spriteId: f78bb09007ae18d4eba8a044713810f2
     - name: PoisonClaw_96x96_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -878,6 +896,7 @@ ScriptedImporter:
       spriteId: f3c16caf81afbde47aede04451953db3
     - name: PoisonClaw_96x96_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -886,6 +905,7 @@ ScriptedImporter:
       spriteId: 03b6fa38fd71b3441903dae415130f16
     - name: PoisonClaw_96x96_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -894,6 +914,7 @@ ScriptedImporter:
       spriteId: 28adcaf24a726564bbcf03e380d7490c
     - name: PoisonClaw_96x96_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -902,6 +923,7 @@ ScriptedImporter:
       spriteId: aec44b934d5000949b75a52ae2841fec
     - name: PoisonClaw_96x96_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -910,6 +932,7 @@ ScriptedImporter:
       spriteId: 1e8cd545d7a1f7e428e0eab6ffd98040
     - name: PoisonClaw_96x96_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -918,6 +941,7 @@ ScriptedImporter:
       spriteId: a7da3e5d44cea2048a0433f422e88bb4
     - name: PoisonClaw_96x96_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -926,6 +950,7 @@ ScriptedImporter:
       spriteId: 1d4e564a00ad0854ab50acffc75d68e8
     - name: PoisonClaw_96x96_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -934,6 +959,7 @@ ScriptedImporter:
       spriteId: bcd7ddfeca6bda54cb3cf12dd12e4ddb
     - name: PoisonClaw_96x96_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -942,6 +968,7 @@ ScriptedImporter:
       spriteId: 6f5bfbc44a1c54f4b83ae4e401fe2ac8
     - name: PoisonClaw_96x96_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -950,6 +977,7 @@ ScriptedImporter:
       spriteId: e6054c90304d1a24386267b9042fbc29
     - name: PoisonClaw_96x96_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -958,6 +986,7 @@ ScriptedImporter:
       spriteId: 0e35c8fe9eb1c1b4e92f1d806bfff2b0
     - name: PoisonClaw_96x96_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -966,6 +995,7 @@ ScriptedImporter:
       spriteId: fe043c4ea99e6404c8a8ae0e85f2c97b
     - name: PoisonClaw_96x96_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -974,6 +1004,7 @@ ScriptedImporter:
       spriteId: 5f561b4cf2925ed41b3f435acac87dff
     - name: PoisonClaw_96x96_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -982,6 +1013,7 @@ ScriptedImporter:
       spriteId: 186e8be54279f81418ce238fbebfeec0
     - name: PoisonClaw_96x96_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -990,6 +1022,7 @@ ScriptedImporter:
       spriteId: b96447d87fc019a4ba13a07dd76c1a12
     - name: PoisonClaw_96x96_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: -21
         y: -18
@@ -999,6 +1032,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 96, y: 96}

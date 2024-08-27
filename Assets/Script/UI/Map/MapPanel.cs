@@ -8,14 +8,14 @@ public class MapPanel : MonoBehaviour
 {
     public Button btnPrePage;
     public Button btnNextPage;
-    public Text txtNumberPage;
-    public Transform holdMapLevel;
     public Button btnUnLockLevel;
     public Button btnLockLevel;
     public Button btnBoos;
+    public Text txtNumberPage;
+    public Transform holdMapLevel;
     public int maxMap = 17;
     public int initNumberPage = 1;
-    int currentMap = 1;
+    public int currentMap = 1;
     bool isBoss = false;
 
     private static MapPanel instance;
@@ -30,10 +30,16 @@ public class MapPanel : MonoBehaviour
         {
             instance = this;
         }
+        
+    }
+    private void Start()
+    {
+
+        //ResetPlayerPrefs();
+        currentMap = PlayerPrefs.GetInt("currentMap", 1);
         CreateMap();
         OnclickButton();
     }
-
 
     public void CreateMap()
     {
@@ -103,5 +109,17 @@ public class MapPanel : MonoBehaviour
     {
         btnPrePage.onClick.AddListener(() => Page(-1));
         btnNextPage.onClick.AddListener(() => Page(1));
+    }
+
+    public void SaveLevel(int level)
+    {
+        PlayerPrefs.SetInt("currentMap", level);
+        PlayerPrefs.Save();
+    }
+    public void ResetPlayerPrefs()
+    {
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
+        Debug.Log("All PlayerPrefs have been reset.");
     }
 }

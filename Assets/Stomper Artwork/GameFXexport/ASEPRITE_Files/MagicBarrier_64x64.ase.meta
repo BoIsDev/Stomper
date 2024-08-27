@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -790,6 +792,7 @@ ScriptedImporter:
     cells:
     - name: MagicBarrier_64x64_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -798,6 +801,7 @@ ScriptedImporter:
       spriteId: 7264b2d5aed16a547ac6f371f3075e81
     - name: MagicBarrier_64x64_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -806,6 +810,7 @@ ScriptedImporter:
       spriteId: 9de61eb81cbbd814085546b249972067
     - name: MagicBarrier_64x64_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -814,6 +819,7 @@ ScriptedImporter:
       spriteId: b52c26934eb37754aadeae523936a4e1
     - name: MagicBarrier_64x64_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -822,6 +828,7 @@ ScriptedImporter:
       spriteId: d1f57e62230747c44a9bcc1d3429595e
     - name: MagicBarrier_64x64_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -830,6 +837,7 @@ ScriptedImporter:
       spriteId: 5ba3063e078b6fd4c89f80c9f7de23dd
     - name: MagicBarrier_64x64_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -838,6 +846,7 @@ ScriptedImporter:
       spriteId: 73304d5177dd24244bf63aef2deec0eb
     - name: MagicBarrier_64x64_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -846,6 +855,7 @@ ScriptedImporter:
       spriteId: cf414bb78da9f8d4e9fd45f8231c266a
     - name: MagicBarrier_64x64_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -854,6 +864,7 @@ ScriptedImporter:
       spriteId: d564af544a7a21745bcca907aac0589c
     - name: MagicBarrier_64x64_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -862,6 +873,7 @@ ScriptedImporter:
       spriteId: c07c3a38d63633248af9acc28665cc4a
     - name: MagicBarrier_64x64_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -870,6 +882,7 @@ ScriptedImporter:
       spriteId: af23a3cd1adb10f4fa2328f70efe09e7
     - name: MagicBarrier_64x64_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -878,6 +891,7 @@ ScriptedImporter:
       spriteId: 6f54bbd9512e0d744adf58afdd835c21
     - name: MagicBarrier_64x64_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -886,6 +900,7 @@ ScriptedImporter:
       spriteId: aa1b925b7088dde42a052cf428215085
     - name: MagicBarrier_64x64_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -894,6 +909,7 @@ ScriptedImporter:
       spriteId: 3edf595f1efcc8b47af7835a9e2c5514
     - name: MagicBarrier_64x64_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -902,6 +918,7 @@ ScriptedImporter:
       spriteId: 2977616d01d1a6644a14d83341df4f4e
     - name: MagicBarrier_64x64_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -910,6 +927,7 @@ ScriptedImporter:
       spriteId: 004b97691aa8d9a4baa10eadd211550a
     - name: MagicBarrier_64x64_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -918,6 +936,7 @@ ScriptedImporter:
       spriteId: d1201caec922bf840972b970c518358d
     - name: MagicBarrier_64x64_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -926,6 +945,7 @@ ScriptedImporter:
       spriteId: 5df5cee6d67b3cb449824c620dc903bb
     - name: MagicBarrier_64x64_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -934,6 +954,7 @@ ScriptedImporter:
       spriteId: b39460261e50a1e43a6f9fa9c76a3db4
     - name: MagicBarrier_64x64_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -942,6 +963,7 @@ ScriptedImporter:
       spriteId: 765d5ae1a9fd4634ab4d316194757a0f
     - name: MagicBarrier_64x64_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -950,6 +972,7 @@ ScriptedImporter:
       spriteId: abc55a85ec2ad074fb8543f27cbfe689
     - name: MagicBarrier_64x64_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -958,6 +981,7 @@ ScriptedImporter:
       spriteId: 39cc36c52331c6148a78467e0327f8de
     - name: MagicBarrier_64x64_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -966,6 +990,7 @@ ScriptedImporter:
       spriteId: e0601fc1adc773a40bf90e17e7f19eb5
     - name: MagicBarrier_64x64_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -974,6 +999,7 @@ ScriptedImporter:
       spriteId: fe502b7e5367c824994aa1668876d7d1
     - name: MagicBarrier_64x64_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -982,6 +1008,7 @@ ScriptedImporter:
       spriteId: 6edc8cb959caf484398edbd3df2b5eef
     - name: MagicBarrier_64x64_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -990,6 +1017,7 @@ ScriptedImporter:
       spriteId: 3b3944a066c66d5489278a8a1aacc4f2
     - name: MagicBarrier_64x64_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -998,6 +1026,7 @@ ScriptedImporter:
       spriteId: 90e034270b72aab4694111cd12c569ed
     - name: MagicBarrier_64x64_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -1006,6 +1035,7 @@ ScriptedImporter:
       spriteId: 5f32e03c8e0ad8c4cb16ca7cfdae2dbf
     - name: MagicBarrier_64x64_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -1014,6 +1044,7 @@ ScriptedImporter:
       spriteId: 90bfffe0454a00d43947326b51291ba7
     - name: MagicBarrier_64x64_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -1022,6 +1053,7 @@ ScriptedImporter:
       spriteId: 53ca632bc1fdff041b18af54ecb847fa
     - name: MagicBarrier_64x64_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -1030,6 +1062,7 @@ ScriptedImporter:
       spriteId: d2bd177cde94e6a418d059249e1e6fda
     - name: MagicBarrier_64x64_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -1038,6 +1071,7 @@ ScriptedImporter:
       spriteId: 84e95cb37689dc440bacc42cd4a1d1a0
     - name: MagicBarrier_64x64_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -1046,6 +1080,7 @@ ScriptedImporter:
       spriteId: deda75bfbbc9f6544b355c96e222a99b
     - name: MagicBarrier_64x64_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: -30
         y: -36
@@ -1055,6 +1090,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

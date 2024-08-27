@@ -14,10 +14,13 @@ public class PlayerController : MonoBehaviour, IDameReciever
     public float maxJumpCount = 2;
     public float healthPlayer = 20f;
     public float xDirection = 0f;
+    private float rollDuration = 0.5f;
+    private float rollStartTime;
     //PrivateObject
     [SerializeField] private GameObject PointColiiderHolder;
     [SerializeField] private StateManager stateManager;
-    private bool isCanRoll = true;
+    public bool isCanRoll = true;
+    public bool isRolling = false;
     private bool isWallClimbing = false;
     private float healthPlayerMax = 20f;
     public static PlayerController Instance => instance;
@@ -44,7 +47,6 @@ public class PlayerController : MonoBehaviour, IDameReciever
             Debug.LogError("StateManager is null in PlayerController.");
         }
         stateManager.ChangeState(new IdlePlayer(this));
-
         controls = new PlayerManager();
         controls.Enable();
         controls.Stomper.Movement.performed += ctx =>
@@ -64,17 +66,20 @@ public class PlayerController : MonoBehaviour, IDameReciever
         };
         controls.Stomper.Roll.performed += ctx =>
         {
-            if (isCanRoll && xDirection != 0)
+            if (isCanRoll)
             {
                 isCanRoll = false;
+                isRolling = true;
+                rollStartTime = Time.time;
                 stateManager.ChangeState(new RollPlayer(this));
-                StartCoroutine(WaitSkillPlayer());
+                StartCoroutine(WaitRollPlayer());
             }
         };
         controls.Stomper.Duck.performed += ctx =>
         {
             stateManager.ChangeState(new DuckPlayer(this));
         };
+
     }
     protected void Update()
     {
@@ -86,6 +91,14 @@ public class PlayerController : MonoBehaviour, IDameReciever
         if (xDirection == 0 && isGrounded && !isWallClimbing)
         {
             stateManager.ChangeState(new IdlePlayer(this));
+        }
+        if (isRolling)
+        {
+            if (Time.time - rollStartTime >= rollDuration)
+            {
+                isRolling = false;
+                stateManager.ChangeState(new IdlePlayer(this));
+            }
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -118,11 +131,14 @@ public class PlayerController : MonoBehaviour, IDameReciever
             ObseverManager.Instance.AddObsever(this);
         }
     }
-    private IEnumerator WaitSkillPlayer()
+
+    private IEnumerator WaitRollPlayer()
     {
-        yield return new WaitForSeconds(0.5f);
+           yield return new WaitForSeconds(1f);
         isCanRoll = true;
-    }
+    }    
+        
+    
     public void DamageReciever(int damage)
     {
         healthPlayer -= damage;
@@ -143,5 +159,4 @@ public class PlayerController : MonoBehaviour, IDameReciever
     {
         controls.Disable();
     }
-
 }
